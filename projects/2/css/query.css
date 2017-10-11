@@ -1,0 +1,44 @@
+
+
+
+/* 1200 md */
+@media (max-width:1200px){
+
+}
+
+/* 991 sm */
+@media (max-width:991px){
+    .postimg img {
+        margin: auto;
+    }
+    .headside h2 {
+        padding: 7px;
+    }
+}
+
+/* 767 xs */
+@media (max-width:767px){
+    .post {
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .postcont a {
+        margin-bottom: 5px;
+    }
+    .xsdisplay {
+        display: none;
+    }
+    .xsblock {
+        display: block;
+    }
+    .headside h2 {
+        font-size: 13px;
+    }
+}
+
+
+/**/
+
+@media (max-width:500px){
+
+}

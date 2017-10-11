@@ -1,0 +1,1551 @@
+/* AbdElRahman for Alyasser Group */
+
+/* font start */
+
+@font-face{font-family:'BOoDyC0de-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'BOoDyC0de'; src: url("../fonts/DroidKufi-Regular.ttf")}
+
+/* font end */
+
+* {
+    font-family:'BOoDyC0de';
+}
+a {
+    color: black;
+    text-decoration: none;
+    font-family:'BOoDyC0de';
+}
+ul {
+    padding-right: 0;
+}
+li{
+    list-style: none;
+}
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+select:focus , input:focus {
+    border-color: none;
+    box-shadow: none;
+    outline: 0;
+}
+i {
+    cursor: pointer;
+}
+
+.form-control::-webkit-input-placeholder {padding: 3px;}
+.form-control:-moz-placeholder {padding: 3px;}
+.form-control::-moz-placeholder {padding: 3px;}
+.form-control:-ms-input-placeholder {padding: 3px;}
+
+.alert {
+    border: 0;
+    border-radius: 2px;
+    padding: 10px 15px;
+    font-size: 17px;
+}
+.alert-success {
+    background-color: #03AA2E;
+    background-image: none;
+    color: white;
+}
+.alert-danger {
+    background-color: #C50303;
+    background-image: none;
+    color: white;
+}
+
+/* index home */
+
+
+body {
+    background: url(../img/back.png) no-repeat center 0 fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family:'BOoDyC0de';
+}
+
+.hagznow {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+}
+
+
+/* index home */
+
+.headermin {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: auto;
+    min-height: 100px;
+}
+.lineops {
+    content: "";
+    border-bottom: 5pt solid rgba(255, 255, 255, 0.14);
+    opacity: 0.5;
+}
+.modal-footer {
+    text-align: right;
+}
+.logbt, .logbt:hover, .logbt:focus {
+    background-color: #04bd33;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: 0;
+    text-shadow: none;
+    background-image: none;
+}
+.closebt, .closebt:hover, .closebt:focus {
+    background-color: #535654;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 2px;
+    border: 0;
+    background-image: none;
+}
+.headtext {
+    text-align: center;
+    color: white;
+    margin: 90px 0 0 0;
+}
+
+.navbar {
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 0;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: transparent;
+    background-image: none;
+}
+.navbar-nav {
+    margin: 0;
+    padding: 25px;
+}
+.navbar-nav i {
+    color: #7eb641;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+    min-height: 75px;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+    padding: 0;
+    background-color: transparent;
+}
+.dropdown-menu>li>a {
+    padding: 5px 20px;
+}
+ul.dropdown-menu {
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    margin-right: -25px;
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover,
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
+    color: #04bd33;
+    background-color: transparent;
+    background-image: none;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.open>a {
+    background-image: none;
+    box-shadow: none;
+}
+
+.search {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.search select {
+    padding: 0 12px;
+}
+.search span {
+    text-align: center;
+}
+.tabsmaneg {
+    min-height: 210px;
+    padding: 0 300px;
+}
+.tabsmaneg select {
+    background: transparent;
+    background: url("../img/arrow2.png") 10px 12px;
+    z-index: 999;
+    background-repeat: no-repeat;
+    background-color: white;
+   -webkit-appearance: none;
+}
+.tabsmaneg form button, .tabsmaneg form button:hover, .tabsmaneg form button:focus {
+    float: left;
+    background-color: #7eb641;
+    border-bottom: 3pt solid #5e8d2b;
+}
+div.tabsmaneg>ul {
+    text-align: right;
+    border-bottom: 1pt solid white;
+    padding-bottom: 15px;
+}
+div.tabsmaneg>ul>li.active>a, div.tabsmaneg>ul>li>a:hover {
+    color: #7eb641!important;
+    border-radius: 0!important;
+    font-size: 18px!important;
+    background-color: transparent!important;
+    cursor: pointer!important;
+}
+div.tabsmaneg>ul>li>a {
+    border-radius: 0!important;
+    font-size: 18px!important;
+    background-color: transparent!important;
+    color: white!important;
+    border: 0;
+    border-right: 1pt solid white;
+    cursor: pointer!important;
+}
+.nobord {
+    border-right: 0!important;
+}
+.rightbt , .leftbt {
+    margin-top: 50px;
+    text-align: center;
+}
+.rightbt , .leftbt {
+    border-radius: 12px;
+    padding: 15px 30px;
+}
+.rightbt a , .leftbt a {
+    color: white;
+}
+.rightbt {
+    background-color: #7eb641;
+    border-bottom: 3pt solid #5e8d2b;
+}
+.leftbt {
+    background-color: #004d40;
+    border-bottom: 3pt solid #00392f;
+}
+
+/* reg */
+
+.regpage {
+    min-height: 500px;
+}
+.text3 {
+    margin: 60px 0;
+}
+.text3 h2 {
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+.bole {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bole h5 {
+    text-align: center;
+    background-color: white;
+    padding: 10px 0;
+    border-radius: 2px;
+    font-size: 18px;
+}
+.bole ul {
+    padding-right: 20px;
+}
+.bole ul li {
+    color: white;
+    padding: 5px 0;
+}
+.bole h6 {
+    text-align: center;
+    background-color: #04BD33;
+    padding: 7px 0;
+    border-radius: 2px;
+    font-size: 15px;
+    border-top: 1pt solid white;
+    border-bottom: 1pt solid white;
+    color: white;
+}
+.bole h6 a, .bole h6 a:hover, .bole h6 a:focus {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* reg */
+
+
+/* user-reg-page */
+
+.regeditr form {
+    width: 100%!important;
+}
+.csc {
+    text-align: center;
+    margin: auto;
+}
+.csc label {
+    color: white;
+    width: 180px;
+    text-align: right;
+}
+.csc select {
+    width: 276px!important;
+    padding: 0 12px;
+}
+.regbt {
+    padding: 5px 90px;
+    margin-top: 15px;
+}
+.csc>.form-group {
+    margin: 10px 0;
+}
+.user-reg-page {
+    min-height: 650px;
+    margin-top: 70px;
+}
+.user-reg h5 {
+    font-size: 17px;
+    background: url('../img/blocbac.png') right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 0;
+    color: white;
+}
+.regcont {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 15px;
+    border-top: 3pt solid #03aa2e;
+}
+.regcont form {
+    width: 70%;
+    margin: auto;
+    padding-top: 20px;
+}
+.regcont form button, .regcont form button:hover, .regcont form button:focus {
+    background-color: #04BD33;
+    border: 0;
+    color: white;
+    text-shadow: none;
+    font-size: 18px;
+}
+
+/* user-reg-page */
+
+
+/* edit profile page */
+
+.user-edit-profile h5 {
+    font-size: 14px;
+    background: url('../img/blocbac.png') right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 0;
+    color: white;
+}
+.user-edit-profile label {
+    color: white;
+    float: right;
+    padding: 8px;
+}
+.pass h5 {
+    font-size: 20px;
+}
+.img-profile input[type="file"]::-webkit-file-upload-button
+{
+    background-color: #03AA2E;
+    color: white;
+    width: 200px;
+    margin: 10px 0;
+    text-shadow: none;
+    font-size: 18px;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.img-profile input {
+    width: 200px;
+}
+
+/* edite profile page */
+
+/* booking */
+
+
+.user-booking h5 {
+    font-size: 23px;
+    background: url('../img/blocbac.png') right;
+    background-repeat: no-repeat;
+    display: inline-block;
+    padding: 15px;
+    margin-bottom: 0;
+    color: white;
+}
+.table>thead {
+    background-color: rgba(0, 0, 0, 0.18);
+    color: white;
+}
+.table>thead>tr>th {
+    text-align: center;
+}
+.table>tbody>tr>th {
+    background-color: rgba(220, 220, 220, 0.23);
+    color: white;
+    text-align: center;
+}
+.table>tbody>tr>th>a>i {
+    font-size: 25px;
+    cursor: pointer;
+}
+.table>tbody>tr>th>a {
+    text-decoration: none;
+    color: white;
+}
+.bay a {
+    background-color: white;
+    border: 1pt solid black;
+    color: black!important;
+    padding: 1px 20px;
+}
+.alerts {
+    margin: 10px 0;
+    text-align: center;
+    min-height: 120px;
+}
+
+
+/* booking */
+
+
+
+
+
+
+
+/* mal3ab-profile */
+
+.profilehead {
+    padding: 50px 0;
+}
+.righthead h4 {
+    text-align: right;
+    color: white;
+    padding-top: 40px;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+.lefthead img {
+    float: left;
+}
+.item img {
+    width: 100%;
+    min-height: 250px;
+}
+.carousel-indicators {
+    bottom: -117px;
+}
+.carousel-indicators li img {
+    height: 50px;
+    width: auto;
+}
+.carousel-indicators li {
+    height: 100px;
+    width: 100px;
+    border-radius: 0;
+}
+.carousel-indicators .active {
+    height: 100px;
+    width: 100px;
+    border: 1pt solid #04BD33;
+    border-radius: 0;
+}
+.datainfo {
+    margin-top: 170px;
+}
+.mal3abmap {
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 1px black;
+    text-align: center;
+}
+.mal3abinfo {
+    min-height: 200px;
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 5px black;
+    text-align: center;
+    padding: 15px;
+}
+.mal3abinfo p {
+    font-size: 18px;
+}
+.bookinmatch {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.bookinmatch p {
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+.bookinmatch input {
+    margin: 7px;
+    padding: 6px 5px 0 0;
+    border-radius: 5px;
+}
+.bookinmatch button {
+    margin-top: -2px;
+}
+
+.bookinmatchsea {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 10px 0;
+    text-align: center;
+    padding: 50px 0 50px 0;
+}
+.bookinmatchsea p {
+    padding: 10px;
+    color: white;
+    font-size: 18px;
+}
+.bookinmatchsea input {
+    border-radius: 5px;
+}
+.mal3abcontact {
+    padding: 10px;
+    text-align: center;
+    background-color: rgba(89, 87, 84, 0.5);
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.phone {
+    font-size: 25px;
+    color: white;
+    padding: 10px 0;
+}
+.socialmala3b, .timesmala3b {
+    padding: 10px 0;
+}
+.socialmala3b p {
+    font-size: 15px;
+    color: white;
+}
+.socialmala3b a {
+    color: white;
+}
+.socialmala3b p i.fa {
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+.socialmala3b p i.fa-facebook {
+    background-color: #3B5998;
+    padding-right: 13px;
+    padding-left: 13px;
+}
+.socialmala3b p i.fa-twitter {
+    background-color: #2BA8E0;
+}
+.socialmala3b p i.fa-instagram {
+    background-color: #5E4A43;
+}
+.timesmala3b {
+    color: white;
+    font-size: 15px;
+}
+.bay2 a {
+    background-color: white;
+    border: 1pt solid black;
+    color: black!important;
+    padding: 1px 20px;
+    font-size: 11px;
+}
+h5.ml3bname {
+    font-size: 15px;
+}
+.theadr {
+    text-align: right;
+    padding: 5px 10px 15px 0;
+}
+.theadl {
+    text-align: left;
+    padding: 5px 0 15px 10px;
+}
+.theadl a, .theadr a {
+    color: white;
+    font-size: 18px;
+}
+.theadr span {
+    color: #03aa2e;
+}
+.theadl a i {
+    font-size: 25px;
+}
+.spangr {
+    border-bottom: 3px solid rgba(0, 0, 0, 0.12);
+}
+.spangr span {
+    color: #03aa2e;
+}
+.hsa2s {
+    color: #04bd33;
+    font-size: 18px;
+    padding: 5px 0;
+}
+.frey {
+    margin: 5px 0;
+    text-align: center;
+}
+.frey span {
+    color: white;
+    background-color: #04bd33;
+    display: block;
+    padding: 6px 5px;
+    font-size: 17px;
+}
+.frey i {
+    float: left;
+    padding-left: 6px;
+    font-size: 20px;
+}
+.frey p {
+    color: white;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 10px 0;
+}
+.frey b {
+    color: white;
+    background-color: #04bd33;
+    padding: 6px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+thead.malaabhe {
+    background-color: rgba(0, 0, 0, 0.18);
+    color: red;
+}
+.borbt {
+    border-bottom: 1pt solid black;
+    border-top: 1pt solid black;
+    padding: 10px 0 0 0;
+}
+.paddto {
+    padding-top: 35px!important;
+}
+.bordbot {
+    border-bottom: 3pt solid #03AA2E;
+}
+.bordbot th {
+    padding: 25px 0!important;
+}
+.map {
+    width: 100%;
+    height: 185px!important;
+    margin: 5px 0;
+}
+
+/* mal3ab-profile */
+
+
+
+/* add chalenge */
+
+
+.addchal h5 {
+    font-size: 14px;
+}
+.chalencont {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px 15px;
+    border-top: 3pt solid #03aa2e;
+}
+.chalencont form {
+    margin: auto;
+    padding-top: 20px;
+}
+.chalencont form button, .chalencont form button:hover, .chalencont form button:focus {
+    background-color: #04BD33;
+    border: 0;
+    color: white;
+    text-shadow: none;
+    font-size: 18px;
+}
+.leftphoto {
+    text-align: center;
+}
+.leftphoto img {
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    margin: auto;
+    display: block;
+}
+.leftphoto input[type="file"]::-webkit-file-upload-button
+{
+    background-color: #03AA2E;
+    color: white;
+    width: 200px;
+    margin: 10px 0;
+    text-shadow: none;
+    font-size: 18px;
+    border: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.leftphoto input {
+    width: 200px;
+    margin: auto;
+}
+.chalencont textarea {
+    min-height: 130px;
+}
+.offices ul {
+    text-align: center;
+    padding-right: 0;
+}
+.offices ul li {
+    float: none;
+    margin: auto;
+    display: inline-block;
+}
+.offices ul li img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+.offices ul li span {
+    display: block;
+    color: white;
+    padding: 10px 0;
+}
+.blockline {
+    display: block;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: white;
+    color: blak;
+    border-radius: 4px;
+    text-align: center;
+}
+.rightinput {
+    margin: auto;
+    text-align: center;
+}
+.rightinput label {
+    color: white;
+    padding-left: 15px;
+    width: 180px;
+}
+.rightinput>.form-group>input,
+.rightinput>.form-group>textarea, 
+.rightinput>.form-group>select {
+    border: 1pt solid #03AA2E;
+    margin-top: 10px;
+    width: 250px;
+    margin: 10px auto;
+}
+.skinarea {
+    display: block!important;
+    width: 100%!important;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    margin: 0 0 15px 0;
+}
+.addnew img {
+    height: 120px!important;
+    width: 100%!important;
+}
+.addnew i {
+    color: white;
+}
+.colowhi label {
+    color: black;
+}
+.lefphopop img {
+    width: 50%
+}
+
+/* add chalenge */
+
+
+/* matchs search */
+
+.matsea h5 {
+    font-size: 19.5px;
+}
+.matseacont {
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.50);
+}
+
+/* matchs search */
+
+
+/* mal3ab-reg */
+
+.mal3ab-reg {
+    margin-top: 20px;
+}
+.phoanmap img {
+    width: 300px;
+    display: block;
+}
+.mal3ab-regmap>.map {
+    min-height: 300px;
+}
+.headmap h6 {
+    color: white;
+    border-bottom: 1pt solid white;
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+/* mal3ab-reg */
+
+
+
+
+
+/* lega page */
+
+.legainfo {
+    background-color: rgba(0,0,0,0.5);
+    border-top: 2pt solid #04BD33;
+    margin: 50px 0;
+    padding: 30px 0;
+}
+.legainfo h5 {
+    color: white;
+    background-color: rgba(0,0,0,0.7);
+    display: inline-block;
+    width: 200px;
+    border-top: 2pt solid #04BD33;
+    padding: 10px 30px;
+    font-size: 17px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: 1px 1px 1px black;
+}
+.textleft h5 {
+    float: left;
+}
+.textright h5 {
+    float: right;
+}
+.textcenter {
+    text-align: center;
+}
+.textcenter img {
+    margin: auto;
+    height: 100px;
+}
+.winer img {
+    margin: auto;
+    height: 150px;
+}
+.team {
+    text-align: center;
+    padding: 5px 0;
+}
+.team img {
+    margin: auto;
+    height: 100px;
+    background-color: white;
+    border: 6pt solid black;
+    border-radius: 50%;
+    padding: 5px;
+}
+.ddil {
+    text-align: center;
+}
+.ddil a {
+    color: black!importnat;
+}
+.ddil select {
+    border: 1pt solid #03AA2E;
+    margin-top: 10px;
+    width: 250px;
+    margin: 10px auto;
+}
+.btn-info {
+    margin-top: 10px;
+}
+.legamatchvs {
+    text-align: center;
+}
+.legamatchvs i {
+    padding-top: 10px;
+}
+.legamatchteam a, .team a, .legamatchvs a{
+    color: white;
+    font-size: 18px;
+}
+.legamatch {
+    background: black;
+    border-top: 3pt solid #10852b;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin: 8px 5px;
+    padding: 0 10px;
+}
+.legamatchteam {
+    text-align: center;
+}
+.legamatchteam img {
+    margin: 10px auto;
+    padding: 3px;
+    border-radius: 50%;
+    background-color: white;
+}
+.legamatchvs img {
+    margin: auto;
+    margin-top: 50%;
+}
+.margintop {
+    margin-top: 50px;
+}
+.borderleft {
+    border-left: 3pt solid #10852b;
+}
+.tc {
+    text-align: center;
+    margin: 30px 0;
+    display: none;
+}
+.tc a {
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+.txc {
+    text-align: center;
+    margin: 30px 0;
+}
+.txc a {
+    display: block;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 5px;
+    font-size: 18px;
+}
+.bx {
+    direction: ltr;
+    margin-top: 50px;
+}
+.slide1 {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    background: rgba(255, 255, 255, 0)!important;
+    border: 0!important;
+}
+.margtop {
+    margin-top: 50px;
+}
+.legendedit {
+    text-align: center;
+}
+.legendedit a {
+    color: white;
+    font-size: 17px;
+}
+.legendedit select {
+    border: 1pt solid #03AA2E;
+    margin-top: 10px;
+    width: 250px;
+    margin: 10px auto;
+}
+.dd {
+    margin: auto;
+}
+.legendedit button, .legendedit button:hover {
+    text-align: center;
+    width: 200px;
+    margin: auto;
+    float: none;
+    margin: 20px 0 0 0;
+    background-color: #03AA2E;
+    border: 0;
+    color: white;
+    text-shadow: 0;
+    padding: 10px 12px;
+}
+
+/* lega page */
+
+
+/* legas page */
+
+.leg {
+    border-top: 3pt solid #04BD33;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.legwins {
+    text-align: center;
+    padding: 70px 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+.legwins p {
+    color: white;
+    font-size: 18px;
+}
+.legwins img {
+}
+.legaimg img {
+}
+.leganame {
+    padding: 25px 0;
+}
+.leganame a {
+    text-align: right;
+    color: white;
+    font-size: 25px;
+}
+.leganame p {
+    text-align: right;
+    color: #04BD33;
+    padding: 5px 0;
+}
+.bx2 {
+    direction: ltr;
+    margin-top: 50px;
+}
+.bxs {
+    background-color: black;
+}
+.btleg {
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+}
+.btleg i {
+    color: #04BD33;
+    font-size: 25px;
+    vertical-align: middle;
+}
+.slide2 {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;
+    background: black!important;
+    border-right: 5pt solid black!important;
+    border-left: 5pt solid black!important;
+    border-bottom: 5pt solid black!important;
+    border-top: 5pt solid #04BD33!important;
+    border-radius: 10px;
+}
+.bx-wrapper img {
+    padding: 10px 15px;
+    max-height: 155px;
+    min-height: 155px;
+}
+.bx-pager, .bx-default-pager {
+    display: none;
+}
+.bx-wrapper {
+    margin: 0 auto!important;
+}
+.bx3 {
+    margin-top: 0;
+}
+
+
+/* legas page */
+
+
+
+
+/* add chalenge */
+.teams {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: 0;
+    border-top: 
+}
+.tem {
+    border-top: 3pt solid #04BD33;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.tem img {
+    margin: auto;
+    height: 200px;
+}
+.tem p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.teamsea input {
+    text-align: center;
+    margin: auto;
+}
+.bordtp {
+    border-top: 3pt solid #04BD33;
+}
+.teams button {
+    background-color: #06BD35;
+    border: 0;
+    padding: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+/* add chalenge */
+
+
+
+
+/* team profile */
+
+.teamname {
+    padding: 50px 0;
+}
+.teamname a {
+    color: white;
+    font-size: 22px;
+}
+.teamname i {
+    color: black;
+}
+.teamimg {
+    position: relative;
+    display: block;
+    padding-left: 25px;
+}
+.teamimg img {
+    float: left;
+    padding: 10px 0;
+    height: 130px;
+}
+.teamimg label {
+    position: absolute;
+    left: 60px;
+    padding: 5px;
+    top: 120px;
+    cursor: pointer;
+}
+.teamimg i {
+    color: black;
+    font-size: 25px;
+}
+.t7dy {
+    margin-top: 32px;
+}
+li.chalenthat {
+    margin-top: 5px;
+    float: left;
+    display: block;
+}
+li.chalenthat a {
+    background-color: #04BD33;
+    padding: 3px 25px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+.captinimg {
+    position: relative;
+    height: 200px;
+    width: 215px;
+    margin: 60px auto;
+}
+.captinimg img {
+    margin: auto;
+    height: 200px;
+    border-radius: 5px;
+}
+.captinimg p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 10px 0;
+}
+.captinimg i {
+    position: absolute;
+    top: 5px;
+    font-size: 25px;
+    right: 5px;
+}
+.carts {
+    padding: 60px 0;
+}
+.carts ul {
+    padding-right: 0;
+    text-align: center;
+}
+.carts ul li {
+    list-style: none;
+    display: inline-block;
+}
+.carts ul li img {
+    height: 50px;
+    border: 1pt solid black;
+    border-radius: 7px;
+}
+.teammemp ul {
+    padding-right: 0;
+}
+.teammemp ul li {
+    display: inline-block;
+}
+.teammemp ul li img {
+    height: 200px;
+    border-radius: 5px;
+}
+.mempteam {
+    position: relative;
+}
+.mempteam i {
+    position: absolute;
+    top: 5px;
+    font-size: 25px;
+}
+.mempteam i.fa-pencil-square {
+    right: 5px;
+}
+.mempteam i.fa-times {
+    left: 5px;
+}
+.mempteam p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding: 5px 0;
+}
+/* Hide the file input using
+opacity */
+.teamimg input[type=file] {
+    position: absolute;
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+/*
+input,
+[type=file] + label {
+  border: 1px solid #CCC;
+  border-radius: 3px;
+  text-align: left;
+  padding: 10px;
+  width: 150px;
+  margin: 0;
+  left: 0;
+  position: relative;
+}
+[type=file] + label {
+  text-align: center;
+  left: 7.35em;
+  top: 0.5em;
+  background: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+[type=file] + label:hover {
+  background: #3399ff;
+}
+*/
+.captinteamimg img {
+    height: 200px;
+    padding: 10px 0;
+    border-radius: 5px;
+    margin: 10px auto;
+}
+.contactteam {
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: center;
+}
+.addedit {
+    margin: 20px auto;
+    text-align: center;
+}
+.addedit a {
+    background-color: #04BD33;
+    padding: 3px 25px;
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+/* team profile */
+
+
+
+/* credit */
+
+.credit h5 {
+    font-size: 30px;
+    margin-bottom: -1px;
+}
+.rasid {
+    padding: 20px 5px;;
+}
+.rasid span {
+    color: white;
+    text-align: right;
+    font-size: 18px;
+}
+.sfad input {
+    padding: 0 5px;
+}
+
+/* credit */
+
+
+/* noti */
+
+
+.notimes {
+    margin: 100px 0;
+}
+.notibt {
+    border-top: 1px dashed #ccc;
+    padding: 10px 0;
+    color: white;
+    font-size: 16px;
+    background-color: rgba(128, 128, 128, 0.4);
+}
+.notibtmes {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 18px;
+    padding: 10px 0 6px 0;
+}
+
+
+/* noti */
+
+/* mail */
+
+.notimob {
+    display: none;
+}
+.noti, .notimob {
+    margin-top: 50px;
+}
+.notidata {
+    text-align: center;
+}
+.notidata a {
+    background-color: white;
+    text-align: center;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+.notititle {
+    font-size: 19px;
+    color: white;
+    text-align: center;
+}
+.notititle p a {
+    color: white;
+}
+.activef, .activef:hover {
+    background-color: black!important;
+    color: white;
+}
+
+
+/* mail */
+
+
+
+
+/* chat */
+
+.chat {
+    margin-top: 50px;
+}
+.mess {
+    background-color: white;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.headchat {
+    background-color: #E2E2E2;
+    color: black;
+    padding: 15px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.infoblocchat {
+    text-align: center;
+}
+.infoblocchat a {
+    font-size: 16px;
+    text-align: center;
+}
+.mess {
+    margin-top: 10px;
+}
+.message_reply {
+    margin: 10px 0;
+}
+.message_reply img {
+    border-radius: 4px;
+    padding-left: 10px;
+}
+.message_reply a {
+    font-size: 22px;
+}
+.message_reply span {
+    
+}
+.message_reply p {
+    padding-top: 10px;
+    padding-right: 60px;
+    text-align: right;
+}
+.rep {
+    text-align: left;
+}
+.rep img {
+    padding-left: 0;
+    padding-right: 10px;
+}
+.rep a {
+    text-align: left;
+}
+.rep p {
+    text-align: left;
+}
+.send {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.send textarea {
+    height: 120px;
+}
+
+
+/* chat */
+
+
+/* my */
+
+.match {
+    text-align: center;
+}
+.match a {
+    color: white;
+    font-size: 30px;
+}
+.myin {
+    background-color: white;
+    padding: 8px 0;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.myin a {
+    font-size: 18px;
+}
+.t7dy img {
+    height: 100px;
+}
+.nav-tabs {
+    margin: auto;
+    text-align: center;
+    margin: 20px 0;
+}
+.nav-tabs>li {
+    display: inline-block;
+    float: none;
+}
+.navbar-nav>li>a {
+    padding: 10px;
+    text-align: center;
+    color: white!important;
+}
+.nav>li>a:focus, .nav>li>a:hover, .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+    background-color: transparent;
+}
+.nav-tabs {
+    border-bottom: 0;
+}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover, .nav-tabs>li>a:hover {
+    border-radius: 2px;
+    font-size: 18px;
+    background-color: #04BD33;
+    color: white;
+    border: 0;
+    cursor: pointer;
+}
+.nav-tabs>li>a {
+    border-radius: 2px;
+    font-size: 18px;
+    background-color: white;
+    border: 0;
+    
+}
+.fa-check-square-o {
+    color: #04BD33!important;
+}
+.fa-times-circle {
+    color: red!important;
+}
+.seto button, .seto button:hover, .seto button:focus {
+    background-color: #04BD33;
+    color: white;
+    border: 0;
+    padding: 10px 0;
+    
+}
+.setored button, .setored button:hover, .setored button:focus {
+    background-color: #E22424;
+    color: white;
+    border: 0;
+    padding: 10px 0;
+    
+}
+/* my */
+
+
+
+
+/* footer */
+
+footer {
+    padding: 25px 0;
+}
+.marup {
+    margin-top: 30px;
+}
+.footright a,.footleft a {
+    color: white;
+    font-size: 15px;
+}
+.footleft a {
+    float: left;
+}
+.footleft img {
+    float: left;
+    padding-right: 10px;
+}
+
+
+/* footer */
+
+
+
+/* AbdElRahman for Alyasser Group */
+

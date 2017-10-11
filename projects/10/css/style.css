@@ -1,0 +1,839 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+
+/* font */
+@font-face{font-family:'DroidKufi-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'DroidKufi-Regular'; src: url("../fonts/DroidKufi-Regular.ttf")}
+/* font */
+
+
+/* free */
+body {
+    font-family: 'DroidKufi-Regular';
+    color: #4c4c4c;
+    background-color: white;
+}
+a, a:hover, a:focus {
+    font-family: 'DroidKufi-Regular';
+    font-size: 12px;
+    color: white;
+    text-decoration: none;
+}
+/* free */
+
+
+
+
+/* Header
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.topnav {
+    background-color: #edf3f4;
+}
+.righttopnav {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.righttopnav a {
+    color: #186078;
+}
+.righttopnav a i {
+    color: #d09d35;
+}
+.lefttopnav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.follow {
+    text-align: center;
+}
+.follow a img {
+    display: inline;
+}
+.lang {
+    color: #186078;
+}
+.lang select, .lang select:focus, .lang select:active {
+    border: 0;
+    background: none;
+    -webkit-appearance: none;
+    background-image: url("../img/arrow.png");
+    background-repeat: no-repeat;
+    background-position: 5px 10px;
+    outline: 0;
+    cursor: pointer;
+}
+.logo img {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.logo2 img {
+    float: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.headernav {
+    background-color: #186078;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-default {
+    background-color: #186078;
+    border-color: transparent;
+    background-image: none;
+}
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0;
+}
+.navbar .container {
+    padding: 0;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li,
+.navbar-default .navbar-nav>.open>a
+{
+    color: white;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    font-size: 13px;
+    -webkit-box-shadow: none;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:focus,
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.active>a {
+    color: white;
+    background-color: #d09d35;
+    text-shadow: none;
+    background-image: none;
+    box-shadow: none;
+}
+.dropdown-menu {
+    background-color: #186078;
+    margin-top: -1px!important;
+}
+.dropdown-menu>li>a {
+    background-color: #186078;
+    color: white!important;
+}
+.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+    color: white!important;
+}
+.dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover {
+    background-color: #d09d35;
+    background-image: none;
+    color: white;
+}
+.navbar-left {
+    margin: 0;
+}
+.navbar-left input, .navbar-left input:focus, .navbar-left input:active {
+    border: 0;
+    border-radius: 0;
+    background-color: #125267;
+    box-shadow: none;
+    outline: 0;
+    color: white;
+    margin-bottom: -6px;
+    padding: 11px;
+    display: none;
+    width: 0%;
+    float: left;
+}
+.navbar-left a i {
+    color: white;
+    background-color: #125267;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    padding: 15px;
+    cursor: pointer;
+}
+
+
+/* Header
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* slideshow
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.slideshow {
+    padding: 0;
+}
+.slideshow .item img {
+    width: 100%;
+    min-height: 310px;
+    max-height: 310px;
+}
+.slideshow .carousel-control.left,
+.slideshow .carousel-control.right {
+    opacity: 1;
+    background-image: none;
+}
+.slideshow .carousel-control.left span,
+.slideshow .carousel-control.right span {
+    background-color: #186078;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 15px;
+    text-shadow: none;
+}
+
+.slideshow .carousel-indicators li {
+    height: 15px;
+    width: 15px;
+    margin: 0;
+    background-color: #186078;
+    border: 0;
+}
+.slideshow .carousel-indicators .active {
+    background-color: #d09d35;
+}
+
+/* slideshow
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* rightinfo
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.info {
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.rightinfo {
+    
+}
+.rightinfo h1 {
+    color: #1a2633;
+    font-weight: bold;
+    font-size: 24px;
+}
+.rightinfo p {
+    color: #333953;
+    font-size: 13px;
+    line-height: 22px;
+}
+.info .panel-default {
+    border: 0;
+}
+.info .panel-heading {
+    background-color: transparent;
+    background-image: none;
+    border-color: 0;
+    border-bottom: 1pt solid #b9b9b9;
+}
+.info .panel-default .collapse p {
+    color: #333953;
+    font-size: 12.5px;
+    line-height: 22px;
+    padding: 5px 10px;
+}
+.info .panel-heading a, .info .panel-heading a:hover, .info .panel-heading a:focus {
+    color: #484b64;
+}
+.info .panel-heading i {
+    color: #298ac2;
+}
+
+/* rightinfo
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+.leftinfo iframe {
+    width: 100%;
+    height: 315px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* posts
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.posts {
+    background-image: url("../img/patt2.png");
+    background-repeat: repeat;
+    padding-top: 60px;
+    padding-bottom: 100px;
+}
+.posts h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 75px 0;
+}
+.rightpost {
+    position: relative;
+}
+.rightpost img {
+    width: 100%;
+}
+.ontop {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(47, 52, 59, 0.7);
+    padding: 10px;
+}
+.ontop h1 {
+    font-size: 17px;
+    color: white;
+    margin-bottom: 25px;
+    line-height: 25px;
+}
+.ontop p {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0;
+    color: white;
+}
+.leftposts .row {
+    border-bottom: 1pt solid #22748f;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-bottom: 24px;
+}
+.leftposts .data {
+    color: white;
+    text-align: center;
+}
+.leftposts .data div {
+    position: absolute;
+    background-color: #d09d35;
+    box-shadow: 2px 2px 0px #b48422;
+    padding: 10px;
+}
+.leftposts .data a {
+    display: block;
+}
+.leftposts .post h1 {
+    margin: 0;
+    margin-bottom: 17px;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+}
+.leftposts .post p {
+    padding: 0;
+    font-size: 12px;
+    color: white;
+    line-height: 20px;
+}
+
+/* posts
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* porto
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.porto {
+    background-color: white;
+    padding-top: 55px;
+    padding-bottom: 45px;
+}
+.porto h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a627a;
+    margin: 0 0 35px 0;
+}
+.porto .col-sm-12 {
+    position: relative;
+    height: 190px;
+    margin-bottom: 35px;
+}
+.porto .col-sm-12:hover .block {
+    background-color: #12a0b1;
+    transition: all 1s;
+}
+.porto .col-sm-12:hover .block .insideblock h1 {
+    color: white;
+    transition: all 0.5s;
+}
+.porto .col-sm-6:hover .block .insideblock p {
+    color: white;
+    transition: all 0.5s;
+}
+.porto .block {
+    position: absolute;
+    height: 100%;
+    width: 70%;
+    background-color: white;
+    border: 1pt solid #e1e1e1;
+    transition: all 1s;
+    overflow: hidden;
+}
+.porto img {
+    position: absolute;
+    margin: 11px;
+    z-index: 1;
+    left: 0;
+    border: 5pt solid white;
+}
+.insideblock {
+    padding: 30px 20px;
+    position: absolute;
+    height: 100%;
+    width: 85%;
+}
+.insideblock h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #323232;
+    text-align: right;
+    transition: all 0.5s;
+}
+.insideblock .line {
+    content: "";
+    border-top: 3pt solid #ff9800;
+    width: 93px;
+    margin: 10px 0;
+}
+.insideblock p {
+    font-size: 15px;
+    text-align: right;
+    transition: all 0.5s;
+    padding: 0;
+    color: #323232;
+}
+.porto footer {
+    text-align: center;
+    padding-top: 30px;
+}
+.porto footer a {
+    color: white;
+    background-color: #02adc6;
+    padding: 7px 20px;
+    border-radius: 3px;
+}
+
+/* porto
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* service
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.service {
+    background-image: url("../img/patt.png");
+    background-repeat: repeat;
+    padding-top: 60px;
+}
+.service h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    margin: 0 0 30px 0;
+}
+.service img {
+    border-radius: 50%;
+    margin: auto;
+}
+.service h1 {
+    font-size: 18px;
+    margin: 10px 0;
+    text-align: center;
+}
+.service p {
+    font-size: 12px;
+    text-align: center;
+    padding: 0;
+    line-height: 22px;
+    color: white;
+}
+.service footer {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 35px;
+}
+.service footer a {
+    font-size: 13px;
+}
+
+/* service
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* gallery
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.gallery {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.gallery h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a627a;
+    margin: 0 0 30px 0;
+}
+.gallery ul li {
+    margin-bottom: 15px;
+}
+.gallery ul li img {
+    margin: auto;
+}
+
+/* galleryv
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+.singlepage {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.contenttitle h1 {
+    margin: 0;
+    background-color: #186078;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.contentcont p {
+    margin: 0;
+    padding: 10px 0;
+    line-height: 25px;
+    font-size: 14px;
+    color: #303334;
+}
+.contentcont img {
+    height: 215px;
+    padding: 15px;
+}
+
+/**/
+
+
+
+
+
+
+
+/**/
+
+.sidebartitle h1 {
+    margin: 0;
+    background-color: #186078;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+}
+.sidebarmenu ul {
+    padding: 0;
+    margin: 10px 0;
+}
+.sidebarmenu ul li {
+    padding: 4px 5px;
+}
+.sidebarmenu ul li a {
+    color: #303334;
+    font-size: 15px;
+    line-height: 25px;
+}
+.sidebarmenu img {
+    margin: 10px auto;
+}
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.footerup {
+    background-color: #303334;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.rightfoot h2 {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-family:'DroidKufi-Bold';
+}
+.rightfoot ul li {
+    display: block;
+    margin-bottom: 2px;
+}
+.rightfoot ul li a {
+    color: white;
+    font-size: 13px;
+}
+.rightfoot ul li a i {
+    color: white;
+}
+.leftfoot h2 {
+    color: white;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-family:'DroidKufi-Bold';
+}
+.leftfoot a {
+    display: block;
+    font-size: 13px;
+    text-align: center;
+}
+.leftfoot span {
+    display: block;
+    color: white;
+    font-size: 22px;
+    font-family: 'tahoma';
+    text-align: center;
+    padding-top: 15px;
+}
+.footerdn {
+    background-color: #1d1f20;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footerright {
+    float: right;
+    padding-top: 8px;
+}
+.footerright a {
+    font-size: 12px;
+    color: white;
+}
+.footerleft img {
+    float: left;
+    padding: 5px;
+}
+
+/* Footer
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/

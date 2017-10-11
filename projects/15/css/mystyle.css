@@ -1,0 +1,635 @@
+/*
+Theme Name: Without Name Until Now
+Version:    1.0
+Site URL:   Soon
+Authors:    AbdElRahman Ahmad && M. Bassiouny
+Author URL: {Fb.com/100009493027051} && {Fb.com/100009128061345}
+colors:     rgb(221,0,23) - rgb(0, 0, 0)
+*/
+
+/* Font Start */
+@font-face{font-family:'BOoDyC0de-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'BOoDyC0de'; src: url("../fonts/DroidKufi-Regular.ttf")}
+/* Font End */
+
+body {
+    font-family:'BOoDyC0de';
+    font-size: 11px;
+}
+
+/* header */
+
+.topbar {
+    background-color: #1b4597;
+}
+.date p {
+    color: white;
+    font-size: 12px;
+    margin: 0;
+    padding: 15px 0;
+}
+.search form {
+    margin: 0;
+}
+.search input, .search input:focus, .search input:active {
+    display: none;
+    border: 0;
+    padding: 15px 15px 16px 0;
+    width: 1px;
+    outline: 0;
+    outline-offset: 0;
+}
+.hove {
+    width: auto!important;
+    display: inline-block!important;
+}
+.search button, .search button:hover, .search button:focus, .search button:active, .search button:active:focus {
+    background-color: #2052B2;
+    border: 0;
+    text-shadow: none;
+    color: white;
+    padding: 13px;
+    margin: 0;
+    border-radius: 0;
+    outline: 0;
+    outline-offset: 0;
+}
+.social {
+    text-align: left;
+}
+.social a i {
+    height: 30px;
+    width: 30px;
+    background-color: #2052b2;
+    color: white;
+    border-radius: 50%;
+    padding: 7px 9px;
+    font-size: 15px;
+    margin: 8px 0;
+}
+.logo {
+    text-align: right;
+}
+.privnav {
+    background-color: #939598;
+}
+.navbar-abdo {
+    margin-bottom: 0;
+}
+.navbar-abdo .navbar-collapse {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-abdo ul.nav li a {
+    color: white;
+    background-color: transparent;
+}
+.navbar-abdo ul.nav li a:hover, .navbar-abdo ul.nav li a:focus, .navbar-abdo ul.nav li a:active,
+.navbar-abdo ul.nav li a:focus:active, .navbar-abdo ul.nav li.active a {
+    color: white;
+    background-color: #1b4597;
+}
+.navbar-nav>li>.dropdown-menu {
+    padding-top: 0;
+}
+.navbar-abdo ul.nav.navbar-nav li.dropdown ul.dropdown-menu li a {
+    color: white;
+    background-color: #1b4597;
+    font-size: 11px;
+    font-weight: normal;
+}
+.navbar-abdo ul.nav.navbar-nav li.dropdown ul.dropdown-menu li a:hover,
+.navbar-abdo ul.nav.navbar-nav li.dropdown ul.dropdown-menu li a:focus,
+.navbar-abdo ul.nav.navbar-nav li.dropdown ul.dropdown-menu li a:active {
+    background-color: #939598!important;
+    background-image: none;
+}
+
+/* header */
+
+/* mainslider */
+
+.mainslider img {
+    width: 100%;
+    min-height: 509px;
+    max-height: 509px;
+}
+.mainslider .carousel-caption {
+    width: 100%;
+    right: auto;
+    left: auto;
+}
+.mainslider h3 {
+    margin-bottom: 25px;
+    font-size: 33px;
+    font-weight: bold;;
+    color: white;   
+    text-shadow: none;
+}
+.mainslider p {
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
+    text-shadow: none;
+}
+.mainslider button, .mainslider button:hover, .mainslider button:focus, .mainslider button:active {
+    color: white;
+    background-color: #2052b2;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px 30px;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+.mainslider .carousel-control.left, .mainslider .carousel-control.right {
+    opacity: 1;
+    background-image: none;
+}
+
+/* mainslider */
+
+
+/* service */
+
+.service {
+    background-color: #1b4597;
+}
+.serv {
+    text-align: center;
+    cursor: pointer;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.serv i {
+    height: 150px;
+    width: 150px;
+    background-color: #2052b2;
+    border-radius: 50%;
+    color: white;
+    font-size: 60px;
+    padding: 45px 0;
+}
+.serv h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+.serv:hover i {
+    background-color: #939598;
+}
+
+/* service */
+
+
+/* about */
+
+.about {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.aboutimg img {
+    width: 100%;
+}
+.abouttext h1 {
+    font-size: 18px;
+    color: #1f3646;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+.abouttext h2 {
+    font-size: 18px;
+    color: #1f3646;
+    margin-top: 5px;
+}
+.abouttext p {
+    font-size: 14px;
+    color: #818286;
+    line-height: 23px;
+    margin: 0;
+    padding-top: 15px;
+}
+.abouttext button, .abouttext button:hover, .abouttext button:focus, .abouttext button:active {
+    color: white;
+    background-color: #6d6e71;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px 30px;
+    font-size: 13px;
+    margin-bottom: 25px;
+    float: left;
+}
+
+/* about */
+
+
+/* newsclint */
+
+.newsclint {
+    background-image: url("../img/newsback.png");
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.news h1 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+.news hr {
+    width: 25%;
+    float: right;
+    border: 0.5pt solid rgba(132, 140, 147, 0.32);
+}
+.newsimg {
+    margin-bottom: 15px;
+}
+.newsimg img {
+    width: 100%;
+}
+.newstext h1 {
+    font-size: 18px;
+    color: #e1ebf0;
+    margin: 0;
+    margin-bottom: 10px;
+}
+.newstext span {
+    font-size: 12px;
+    color: white;
+}
+.newstext p {
+    font-size: 11px;
+    color: #e1ebf0;
+    padding: 0;
+    margin: 0;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.client h1 {
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin: 0;
+}
+.client hr {
+    width: 25%;
+    float: right;
+    border: 0.5pt solid rgba(132, 140, 147, 0.32);
+}
+.clientslider .item {
+    height: auto;
+    min-height: 10px;
+}
+.clientslider .item .carousel-caption {
+    right: auto;
+    left: auto;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    bottom: auto;
+    text-shadow: none;
+}
+.clientslider .item .carousel-caption p {
+    font-size: 14px;
+    color: #e1ebf0;
+    padding: 0;
+    margin: 0;
+    line-height: 25px;
+}
+.clientslider .item .carousel-caption p:before {
+    content: "";
+    background-image: url("../img/dd.png");
+    background-repeat: no-repeat;
+    height: 20px;
+    width: 24px;
+    padding: 0 13px;
+    margin: 10px;
+}
+.whosay {
+    background-image: url("../img/line.png");
+    background-repeat: no-repeat;
+    background-position: 0 23px;
+    margin-top: 50px;
+    text-align: right;
+}
+.whosay img {
+    display: inline-block;
+}
+.whosay h1 {
+    font-size: 14px;
+    color: white;
+    display: inline-block;
+}
+.control {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.control i {
+    color: white;
+    font-size: 18px;
+}
+
+/* newsclint */
+
+
+/* service2 */
+
+.service2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.service2 h1 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 0;
+    color: #1f3646;
+}
+.service2 h2 {
+    font-size: 13px;
+    margin-top: 0;
+    color: #1f3646;
+}
+.serv2 {
+    margin-top: 25px;
+}
+.serv2:hover .serv2imghover {
+    opacity: 1;
+    transition: ease 0.5s;
+}
+.serv2img {
+    position: relative;
+}
+.serv2img img {
+    width: 100%;
+    height: 220px;
+}
+.serv2imghover {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(31, 54, 70, 0.73);
+    z-index: 1;
+    padding-top: 65px;
+    opacity: 0;
+    transition: ease 0.5s;
+}
+.serv2imghover h1 {
+    color: white;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 30px;
+}
+.serv2imghover button, .serv2imghover button:hover, .serv2imghover button:focus, .serv2imghover button:active {
+    color: white;
+    background-color: #6d6e71;
+    border-radius: 6px;
+    border: 0;
+    padding: 10px 30px;
+    font-size: 13px;
+    outline-offset: 0;
+    outline: 0;
+}
+.servcontrol {
+    margin-top: 25px;
+}
+.servcontrol a {
+    background-color: #2052b2;
+    color: white;
+    font-size: 18px;
+    border-radius: 3px;
+    padding: 3px 14px;
+    margin: 0 2px;
+    cursor: pointer;
+}
+.servcontrol a:hover {
+    background-color: #6d6e71;
+}
+
+/* service2 */
+
+
+/* voteplaces */
+
+.voteplaces {
+    background-color: #f5f5f6;  
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.places h1 {
+    font-size: 18px;
+    color: #2052b2;
+    font-weight: bold;
+    margin: 0;
+}
+.places hr {
+    width: 90%;
+    float: right;
+    border: 0.5pt solid rgba(132, 140, 147, 0.32);
+    margin-top: 26px;
+}
+.placeimg img {
+    width: 100%;
+    height: 141px;
+}
+.placeinfo h1 {
+    font-size: 13px;
+    color: #6d6e71;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-align: right;
+}
+.placeinfo span {
+    font-size: 13px;
+    float: right;
+    color: #6d6e71;
+}
+.placeinfo p {
+    font-size: 13px;
+    display: block;
+    color: #6d6e71;
+    padding: 0;
+    margin: 0;
+    margin-top: 40px;
+}
+.placeinfo button, .placeinfo button:hover, .placeinfo button:focus, .placeinfo button:active {
+    color: white;
+    background-color: #2052b2;
+    border-radius: 6px;
+    border: 0;
+    padding: 8px 26px;
+    font-size: 13px;
+    outline-offset: 0;
+    outline: 0;
+    float: left;
+}
+.placescontrol {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    background-color: #F5F5F6;
+}
+.placescontrol i {
+    color: #3c68bb;
+    font-size: 18px;
+    margin: 0 3px;
+}
+.placescontrol i:hover {
+    color: #6d6e71;
+}
+.vote h1 {
+    font-size: 18px;
+    color: #2052b2;
+    font-weight: bold;
+    margin: 0;
+}
+.vote hr {
+    width: 100%;
+    float: right;
+    border: 0.5pt solid rgba(132, 140, 147, 0.32);
+    margin-top: 26px;
+}
+.vote form {
+    margin: 0;
+}
+.ques h1 {
+    font-size: 13px;
+    font-weight: bold;
+    color: #6d6e71;
+    margin-bottom: 20px;
+}
+.ques label {
+    cursor: pointer;
+    font-size: 13px;
+    color: #1f3646;
+    margin-left: 20px;
+    font-weight: normal;
+    padding: 7px 0 7px 7px;
+    margin-bottom: 0;
+}
+.ques input {
+    background-color: white;
+    margin: 0 0 0 8px;
+}
+.vote button {
+    margin-right: 5px;
+    color: white;
+    background-color: #2052b2;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px 20px;
+    font-size: 13px;
+    outline-offset: 0;
+    outline: 0;
+    float: left;
+}
+.vote button:hover, .vote button:focus, .vote button:active {
+    margin-right: 5px;
+    color: white;
+    background-color: #6d6e71;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px 20px;
+    font-size: 13px;
+    outline-offset: 0;
+    outline: 0;
+    float: left;
+}
+
+
+/* voteplaces */
+
+
+/* contact */
+
+.contact {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.contact h1 {
+    font-size: 18px;
+    color: #6d6e71;
+    font-weight: bold;
+}
+.contact input, .contact input:focus, .contact input:active {
+    border: 1pt solid #ecf0f1;
+    border-radius: 3px;
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none;
+    margin-bottom: 5px;
+}
+.contact textarea, .contact textarea:focus, .contact textarea:active {
+    border: 1pt solid #ecf0f1;
+    border-radius: 3px;
+    outline: 0;
+    outline-offset: 0;
+    box-shadow: none;
+    margin-bottom: 5px;
+    min-height: 113px;
+}
+.ii::-webkit-input-placeholder:after {content: "*"; color: red;}
+.ii:-moz-placeholder:after {content: "*"; color: red;}
+.ii::-moz-placeholder:after {content: "*"; color: red;}
+.ii:-ms-input-placeholder:after {content: "*"; color: red;}
+.contact button, .contact button:hover, .contact button:focus, .contact button:active {
+    margin-top: 25px;
+    color: white;
+    background-color: #6d6e71;
+    border-radius: 4px;
+    border: 0;
+    padding: 8px 20px;
+    font-size: 13px;
+    outline-offset: 0;
+    outline: 0;
+    float: left;
+}
+
+/* contact */
+
+
+/* addresssec */
+
+.addresssec {
+    background: url("../img/addinfoback.png");
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.addresssec h1 {
+    font-size: 17px;
+    color: white;
+}
+.addresssec p {
+    font-size: 13px;
+    color: white;
+}
+.map iframe {
+    border: 1pt solid rgba(129, 129, 132, 0.6);
+    width: 100%;
+    height: 400px;
+}
+
+/* addresssec */
+
+
+/* footer */
+
+#footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+#footer a, #footer a:hover {
+    color: #6d6e71;
+    font-size: 12px;
+    text-align: right;
+    text-decoration: none;
+}
+#footer img {
+    float: left;
+}
+
+
+/* footer */

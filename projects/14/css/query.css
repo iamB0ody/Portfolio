@@ -1,0 +1,54 @@
+
+
+
+/* 1200 md */
+@media (max-width:1200px){
+
+}
+
+/* 991 sm */
+@media (max-width:991px){
+}
+
+/* 767 xs */
+@media (max-width:767px){
+    .footleft {
+        text-align: center;
+        padding: 25px 0 10px 0;
+    }
+    .footleft a {
+        float: none;
+    }
+    .rightside, .leftside {
+        margin: 20px 0;
+    }
+    .post img {
+        border-radius: 60px;
+    border: 4pt solid #e4e4e4;
+    }
+    .logo, .head-left-img {
+        float: none;
+    }
+    .head-right img, .head-left img {
+        margin: auto
+    }
+    .head-right img {
+        margin-top: 65px;
+    }
+    .head-left img {
+        max-height: 138px;
+    }
+    ul.navbar-left {
+        text-align: center;
+    }
+    .navbar-left li {
+        display: inline-block;
+    }
+}
+
+
+/**/
+
+@media (max-width:500px){
+
+}

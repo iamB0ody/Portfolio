@@ -1,0 +1,70 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {
+}
+
+
+/* sm */
+@media (max-width:991px) {
+    .slideshow .carousel-control.right span, .slideshow .carousel-control.left span {
+        height: 30px;
+        width: 25px;
+        padding: 5px;
+        font-size: 18px;
+    }
+}
+
+
+/* xs */
+@media (max-width:767px) {
+    .searchbar input#search:focus, .searchbar input#search:active {
+        width: 200px;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo img {
+        margin: auto;
+    }
+    .follow {
+        float: none;
+    }
+    .navbar-default .navbar-nav>li, .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus
+    {
+        margin: 0;
+        text-align: center;
+    }
+    .navbar-default .navbar-nav>li>a:after {
+        color: transparent;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li:hover,
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:focus,
+    .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0;
+    }
+    .slideshow .carousel-caption {
+        bottom: 0;
+    }
+    .addressemail, .addressphone {
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .footerleft {
+        text-align: center;
+    }
+    .footerleft img {
+        float: none;
+        margin: auto;
+    }
+}

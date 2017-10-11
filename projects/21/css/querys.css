@@ -1,0 +1,197 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {
+	.slidershow .item .carousel-caption {
+		top: 0;
+	}
+	.welcometext h3 {
+		font-size: 19px;
+	}
+	.ordercontent form {
+	    padding: 0 200px;
+	}
+	.respasscontent form {
+		padding: 0 250px;
+	}
+	.respasssubmit button {
+		min-width: 435px;
+	}
+}
+
+
+/* sm */
+@media (max-width:991px) {
+	.btnbar .collapse.navbar-collapse {
+    	padding-top: 105px;
+	}
+	.slidershow .item .carousel-caption h1 {
+		font-size: 35px;
+	}
+	.slidershow .item .carousel-caption h2 {
+		margin-top: 15px;
+	}
+	.slidershow .carousel-indicators {
+		bottom: 0;
+	}
+	.welcometext h3 {
+		font-size: 15px;
+	}
+	.tablisten ul li a, .tablisten .nav-tabs>li.active>a, .tablisten .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+		font-size: 15px;
+	}
+	.rowlistn span {
+    	line-height: 25px;
+	}
+	.views, .download, .sallary, .buying {
+		text-align: center;
+	}
+	.cats ul li {
+		display: inline-block;
+		width: 30%;
+	}
+	.ordercontent form {
+	    padding: 0 20px;
+	}
+	.topichead h2 {
+		line-height: 30px;
+	}
+	.topichead {
+		padding-top: 20px;
+		text-align: center;
+	}
+	.topicdata {
+		text-align: center;
+	}
+	.topicdata span {
+		padding: 20px;
+	}
+	.topiccont {
+		text-align: center;
+	}
+	.respasscontent form {
+		padding: 0 150px;
+	}
+	.respasssubmit button {
+		min-width: 412px;
+	}
+}
+
+/* xs */
+@media (max-width:767px) {
+	.topbar {
+		text-align: center;
+	}
+	.btnbar.navbar-default {
+		margin-bottom: 35px;
+	}
+	.btnbar.navbar-default .navbar-brand {
+    	margin-bottom: 45px;
+	}
+	.btnbar .collapse.navbar-collapse {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.navbar {
+		margin-bottom: 0;
+	}
+	.navbar-collapse {
+		padding-right: 15px;
+		padding-left: 15px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: white;
+	}
+	.slidershow .carousel-indicators {
+		display: none;
+	}
+	.slidershow .item .carousel-caption {
+		padding: 0;
+	}
+	.slidershow .item .carousel-caption h1 {
+		margin-top: 0;
+		font-size: 20px;
+	}
+	.slidershow .item .carousel-caption h2 {
+		margin-top: 0;
+		font-size: 15px;
+	}
+	.slidershow .item .carousel-caption button {
+		margin-top: 0;
+		padding: 8px 30px;
+	}
+	.slidershow .carousel-control.right span, .slidershow .carousel-control.left span {
+		height: 25px;
+		width: 25px;
+	    font-size: 15px;
+	    padding: 5px;
+	}
+	.welcome {
+    	padding-top: 40px;
+	}
+	.welcometext {
+		text-align: center;
+	}
+	.welcometext h3 {
+		line-height: 75px;
+	}
+	.moread {
+    	padding-bottom: 25px;
+	}
+	.contactus {
+		margin-bottom: 25px;
+	}
+	.cats {
+		text-align: center;
+	}
+	.cats ul li {
+		display: inline-block;
+		width: 100%;
+	}
+	.social {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.copyrights {
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.developedby {
+		text-align: center;
+	}
+	.developedby img {
+		float: none;
+		margin: auto;
+	}
+	.regcontent {
+		text-align: center;
+	}
+	.ordercontent form {
+	    padding: 0 20px;
+	}
+	.respasshead h1 {
+		font-size: 21px;
+		line-height: 35px;
+	}
+	.respasscontent form {
+		padding: 0 0;
+	    text-align: center;
+	}
+	.respasssubmit button {
+		min-width: 300px;
+	}
+	.dropdownlogin {
+		width: 100%;
+		left: 0;
+	}
+	.toparrow {
+		text-align: center;
+	}
+	.toparrow i {
+		padding-left: 50px;
+	}
+}

@@ -1,0 +1,787 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+
+/* font */
+@font-face{font-family:'DroidKufi-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'DroidKufi-Regular'; src: url("../fonts/DroidKufi-Regular.ttf")}
+/* font */
+
+
+/* free */
+body {
+    font-family: 'DroidKufi-Regular';
+    color: #4c4c4c;
+    background-color: white;
+}
+a, a:hover, a:focus {
+    font-family: 'DroidKufi-Regular';
+    font-size: 13px;
+    color: white;
+    text-decoration: none;
+}
+/* free */
+
+
+
+
+/* Header
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.header-top {
+    background-color: #283047;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.righttop {
+    text-align: right;
+    display: inline-block;
+}
+.righttop i {
+    padding-right: 0px;
+    padding-left: 10px;
+    color: #25bc9d;
+}
+.lefttop {
+    text-align: left;
+}
+.lefttop i {
+    padding-left: 0px;
+    padding-right: 10px;
+    color: #25bc9d;
+}
+.logo img {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.follow {
+    text-align: left;
+    margin-top: 55px;
+}
+.follow a i {
+    color: white;
+    background-color: #25bc9d;
+    padding: 10px;
+    border-radius: 50%;
+}
+.search {
+    border: 1pt solid #cacfd4;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 55px;
+    padding: 5px;
+}
+.search input, .search input:hover, .search input:focus, .search input:active {
+    border: 0;
+    color: #626b83;
+    background-color: transparent;
+    outline: 0;
+    outline-offset: 0;
+}
+.inputcolo::-webkit-input-placeholder {
+    color: #626b83;
+}
+.search button, .search button:hover, .search button:focus, .search button:active {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    outline-offset: 0;
+}
+.search button i {
+    color: #bfbfbf;
+}
+
+
+
+
+
+
+.headernav {
+    margin-bottom: 5px;
+}
+/*
+.headernav nav {
+    background-color: #283047;
+}
+*/
+.headernav .dropdown span {
+    color: #03312d;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-default {
+/*    background-color: #283047;*/
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0;
+    background-color: #283047;
+    border-radius: 5px;
+    border-bottom: 3pt solid #25bc9d;
+    margin-bottom: 20px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li,
+.navbar-default .navbar-nav>.open>a
+{
+    color: white;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    font-size: 13px;
+    -webkit-box-shadow: none;
+}
+.navbar-default .navbar-nav>.active>a {
+    font-size: 20px;
+    margin-bottom: -1px;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover
+.navbar-default .navbar-nav>li>a:focus{
+    padding: 15px 25px;
+}
+.navbar-default .navbar-nav>li,
+.navbar-default .navbar-nav>li:hover,
+.navbar-default .navbar-nav>li:focus {
+    margin: 10px 10px 0 0;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:focus,
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.active>a{
+    color: white;
+    background-color: #25bc9d;
+    text-shadow: none;
+    border-radius: 10px 10px 0 0;
+    background-image: none;
+    box-shadow: none;
+}
+.ddddddddddd .dropdown-menu {
+    background-color: #283047;
+    margin-top: 2px!important;
+    box-shadow: 0 -2px 0px #25bc9d;
+}
+.ddddddddddd .dropdown-menu>li>a {
+    background-color: #283047;
+    color: white!important;
+}
+.ddddddddddd .dropdown-menu>li>a:focus, .ddddddddddd .dropdown-menu>li>a:hover {
+    background-color: #25bc9d;
+    color: white;
+    background-image: none;
+}
+.ddddddddddd .dropdown-menu .divider {
+    background-color: #25bc9d;
+}
+.navbar-default .navbar-toggle {
+    border-color: #283047;
+    background-color: #283047;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    border-color: #283047;
+    background-color: #027E73;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #038075;
+}
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #283047;
+}
+
+
+/* Header
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+/* Slideshow
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+.sslide {
+    background-image: url("../img/slideback.png");
+    background-repeat: repeat;
+    width: 100%;
+    height: 510px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+}
+.sslide img {
+    position: absolute;
+    width: 100%;
+    padding-top: 95px;
+    margin: auto;
+}
+.sslide h2 {
+    text-align: center;
+    color: #283047;
+    margin-top: 95px;
+}
+.sslide p {
+    text-align: center;
+    color: #283047;
+}
+.more button {
+    background-color: #283047;
+    color: white;
+    border: 0;
+    border-bottom: 2pt solid #25bc9d;
+    border-radius: 5px;
+    padding: 8px 25px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+    width: 0;
+}
+.carousel-control.right {
+    right: 16px;
+}
+.carousel-control,
+.carousel-control:hover,
+.carousel-control:focus {
+    opacity: 1;
+}
+.carousel-control .glyphicon-chevron-left,
+.carousel-control .icon-prev,
+.carousel-control .glyphicon-chevron-right,
+.carousel-control .icon-next{
+    background-color: #283047;
+    height: 40px;
+    width: 45px;
+    padding: 12px;
+    font-size: 15px;
+    text-shadow: none;
+    border-radius: 4px;
+}
+/* Slideshow
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+/* ad
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+.ad {
+    margin-bottom: 20px;
+}
+.ad img {
+    margin: auto;
+}
+/* ad
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* blockshead
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+.blockshead {
+    margin-bottom: 20px;
+}
+.iconhead {
+    display: inline-block;
+    width: 4%;
+}
+.iconhead i {
+    background-color: #283047;
+    color: white;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: left;
+}
+.morehead {
+    border: 1pt solid #cacfd4;
+    padding: 8px 5px 3px 5px;
+    border-radius: 3px;
+    display: inline-block;
+    width: 95.9%;
+    float: left;
+}
+.morehead a {
+    color: #283047;
+    text-align: right;
+}
+.l1 {
+    text-align: left;
+    float: left;
+}
+.l1 i {
+    color: #20b291;
+    font-size: 20px;
+    padding-right: 15px;
+}
+.l1 i:hover {
+    color: #283047;
+}
+
+
+/* blockshead
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* blockshead
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.block {
+    border: 1pt solid #cacfd4;
+    border-radius: 5px;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.img {
+    position: relative;
+    width: 100%;
+    height: 238px;
+}
+.img img {
+    width: 100%;
+    height: 100%;
+}
+.img-hover {
+    position: absolute;
+    background-color: rgba(33,40,60,0.6);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 100px 0;
+    opacity: 0;
+    transition: 0.5s;
+}
+.img-hover span {
+    background-color: rgba(20, 26, 42, 0.4);
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+.img-hover:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+.titile {
+    color: white;
+    padding: 10px 0;
+}
+.titile h5, .titile h6 {
+    margin: 0;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    padding: 5px 0;
+}
+.prod h5 {
+    text-align: right;
+    padding-right: 10px;
+}
+.morequi {
+    color: red;
+}
+.morequi span {
+    float: left;
+    padding: 10px;
+    color: #20b291;
+}
+.morequi span i {
+    color: #ffc34b;
+}
+
+/* blockshead
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/* page
+
+*/
+
+.pagecont {
+    margin-bottom: 70px;
+}
+.icontitlepage {
+    display: inline-block;
+    width: 4%;
+    margin-bottom: 20px;
+}
+.icontitlepage i {
+    color: white;
+    background-color: #283047;
+    padding: 13px;
+    font-size: 15px;
+    border-radius: 4px;
+}
+.titlepage {
+    display: inline-block;
+    width: 95.5%;
+    margin-bottom: 20px;
+}
+.titlepage h1 {
+    color: #283047;
+    font-size: 15px;
+    margin: 0;
+    padding: 12px 10px 11px 0;
+    border: 1pt solid #cacfd4;
+    background-color: #ebebeb;
+    border-radius: 4px;
+}
+.price {
+    background-color: #25bc9d;
+    border-radius: 4px;
+    padding: 12px;
+    margin-bottom: 5px;
+}
+.price a {
+    padding-left: 20px;
+    font-size: 20px;
+}
+.price a span {
+    font-size: 13px;
+}
+.pageblockhead {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 4px;
+}
+.pageblockhead a {
+    font-size: 17px;
+    color: #283047;
+}
+.pageblockcont {
+    padding-top: 25px;
+    padding-bottom: 35px;
+}
+.pageblockcont p {
+    font-size: 14px;
+    line-height: 25px;
+    color: #767474;
+    padding: 0 10px;
+}
+.pageslideshead {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.pageslideshead a {
+    font-size: 17px;
+    color: #283047;
+}
+.pageslideshead span {
+    float: left;
+}
+.pageslideshead span a i {
+    color: white;
+    background-color: #25BC9D;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+.pageslideshead span a i:hover, .pageslideshead span a i:focus, .pageslideshead span a i:active {
+    background-color: #9ca0aa;
+}
+.pageslidescont {
+    margin-bottom: 20px;
+}
+.pageslidescont img {
+    height: 240px;
+    margin: auto;
+}
+.bloctexthead {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+.bloctexthead a {
+    font-size: 17px;
+    color: #283047;
+}
+.bloctext {
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.bloctext a {
+    font-size: 17px;
+    color: #283047;
+}
+.moread {
+    margin-top: 20px;
+}
+.moread img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.timedownimg {
+    border: 1pt solid #cacfd4;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.timedownimg img {
+    margin: auto;
+}
+.timedowntitle {
+    background-color: #283047;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.watchhead {
+    font-size: 13px!important;
+}
+.timedown {
+    font-size: 30px!important;
+}
+.timedowntitle div {
+    color: white;
+    font-size: 22px;
+}
+.watchtitle {
+    color: red;
+}
+.priceinsouq {
+    background-color: #25bc9d;
+    border-radius: 4px;
+    padding: 12px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.priceinsouq a {
+    font-size: 22px;
+}
+.saleinsouq a {
+    font-size: 30px;
+    font-weight: bold;
+}
+.priceinsouq div {
+    font-size: 13px;
+    color: white;
+}
+.ownernamehead {
+    background-color: #283047;
+    padding: 15px 0;
+    border-radius: 4px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.ownername {
+    border: 1pt solid #cacfd4;
+    border-radius: 4px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+.ownernamehead a {
+    font-size: 18px;
+}
+.ownernametit {
+    text-align: center;
+    padding-top: 15px;
+}
+.ownernametit a {
+    color: #283047;
+    font-size: 18px;
+}
+.sidevedio {
+    margin-bottom: 20px;
+}
+.sidevedio iframe {
+    width: 100%;
+    height: auto;
+    min-height: 250px;
+}
+.sidead img {
+    margin: auto;
+    width: 100%;
+    height: auto;
+}
+/* page
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.footerup {
+    background-color: #1c2335;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footerup h2 {
+    color: #059688;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.categorys ul li {
+    background-color: #171d2d;
+    display: block;
+    border-radius: 2px;
+    margin-bottom: 2px;
+    padding: 5px 10px 5px 5px;
+}
+.categorys ul li a {
+    color: #888888;
+}
+.categorys ul li a i {
+    color: #72c098;
+}
+.footerform input, .footerform input:focus, .footerform input:active {
+    margin-bottom: 3px;
+    border-radius: 0;
+    background-color: #171d2d;
+    border: 0;
+    outline: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    color: white;
+}
+.footerform textarea {
+    border-radius: 0;
+    background-color: #171d2d;
+    border: 0;
+    outline: 0;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    color: white;
+    min-height: 108px;
+}
+.footerform input[type="submit"] {
+    color: white;
+    background-color: #20b291;
+    border-radius: 4px;
+    float: left;
+    padding: 5px 20px;
+    margin-top: 5px;
+}
+.footerdn {
+    background-color: #20b291;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footerright {
+    float: right;
+    padding-top: 10px;
+}
+.footerright a {
+    font-size: 12px;
+    color: white;
+}
+.footerleft img {
+    float: left;
+    padding: 5px;
+}
+
+/* Footer
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+

@@ -18,6 +18,29 @@
     	$(document).ready(function(){
 
 				//$('.skill').height($('.skill').width()).css({'padding':'30% 0'});
+				var item = $('.item');
+				for (var i = 0; i < item.length; i++) {
+					item.each(function() {
+						let num = $(this).find('.itemimage').attr('src').split('/');
+						num = num[1].split('.');
+						num = num[0];
+						let preva = $(this).find('#Preview');
+						let sorva = $(this).find('#Source');
+						preva.attr('href', "projects/" + num);
+						sorva.attr('href', "https://github.com/drmagnet0/OldPortfolio/tree/master/projects/" + num);
+						//alert(num);
+					});
+				}
+
+
+
+
+
+
+
+
+
+
 
     	});
     </script>

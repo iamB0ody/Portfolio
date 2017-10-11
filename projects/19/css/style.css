@@ -1,0 +1,1080 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+
+/* font */
+@font-face{font-family:'DroidKufi-Bold'; src: url("../fonts/DroidKufi-Bold.ttf")}
+@font-face{font-family:'DroidKufi-Regular'; src: url("../fonts/DroidKufi-Regular.ttf")}
+/* font */
+
+
+/* free */
+body {
+    font-family: 'DroidKufi-Regular';
+    color: #4c4c4c;
+    background-color: white;
+    border-top: 3pt solid #197b30;
+}
+a, a:hover, a:focus {
+    font-family: 'DroidKufi-Regular';
+    font-size: 13px;
+    color: #3b474e;
+    text-decoration: none;
+}
+/* free */
+
+
+
+
+/* Header
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.header-top {
+    min-height: 100px;
+    margin-bottom: 20px;
+}
+.logo img {
+    padding-bottom: 15px;
+}
+.leftcontacts {
+    padding-top: 45px;
+    text-align: left;
+}
+.leftcontacts a {
+    color: #929fa6;
+}
+.leftcontacts i {
+    padding-right: 0px;
+    padding-left: 10px;
+    color: #4a575f;
+}
+.headernav .dropdown span {
+    color: #197b30;
+}
+.headernavfluid {
+    border-top: 3pt solid rgba(232, 233, 233, 0.26);
+    margin-bottom: 31px;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-default {
+    background-color: transparent;
+    background-image: none;
+    border-color: transparent;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    border: 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-nav>li,
+.navbar-default .navbar-nav>.open>a
+{
+    color: #435058;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: none;
+    font-size: 19px;
+    -webkit-box-shadow: none;
+}
+.navbar-default .navbar-nav>li>a,
+.navbar-default .navbar-nav>li>a:hover
+.navbar-default .navbar-nav>li>a:focus{
+    padding: 15px 0;
+}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li:hover,
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:focus,
+.navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,
+.navbar-default .navbar-nav>.active>a{
+    color: #435058;
+    background-color: transparent;
+    text-shadow: none;
+    background-image: none;
+    box-shadow: none;
+}
+.navbar-default .navbar-nav>li>a:after {
+    content: "|";
+    color: #435058;
+    padding: 0 10px;
+}
+.headernav .dropdown-menu {
+    background-color: #283047;
+    margin-top: 2px!important;
+    box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+}
+.headernav .dropdown-menu>li>a {
+    background-color: #283047;
+    color: white!important;
+}
+.headernav .dropdown-menu>li>a:focus, .ddddddddddd .dropdown-menu>li>a:hover,
+.headernav .navbar-nav .open .dropdown-menu>li>a:focus, .headernav .navbar-nav .open .dropdown-menu>li>a:hover
+{
+    background-color: #25bc9d;
+    color: #435058;
+    background-image: none;
+}
+.headernav .dropdown-menu .divider {
+    background-color: #25bc9d;
+}
+.navbar-default .navbar-toggle {
+    border-color: #283047;
+    background-color: #283047;
+}
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    border-color: #283047;
+    background-color: #027E73;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #038075;
+}
+.navbar-default .navbar-toggle:focus .icon-bar,
+.navbar-default .navbar-toggle:hover .icon-bar {
+    background-color: #283047;
+}
+/*
+.search input, .search input:hover, .search input:focus, .search input:active {
+    border: 0;
+    color: #626b83;
+    background-color: transparent;
+    outline: 0;
+    outline-offset: 0;
+}
+.inputcolo::-webkit-input-placeholder {
+    color: #626b83;
+}
+.search button, .search button:hover, .search button:focus, .search button:active {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    outline-offset: 0;
+    border: 1pt solid #ececeb;
+    border-radius: 3px;
+    padding: 7px 10px;
+}
+.search button i {
+    color: #4a575f;
+}
+*/
+
+.container-2{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+.container-2 input#search{
+width: 3px;
+height: 45px;
+background: white;
+border: 1pt solid #EEF1ED;
+font-size: 10pt;
+float: left;
+color: #262626;
+padding-left: 35px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+margin-top: 1px;
+-webkit-transition: width .55s ease;
+-moz-transition: width .55s ease;
+-ms-transition: width .55s ease;
+-o-transition: width .55s ease;
+transition: width .55s ease;
+}
+.container-2 input#search::-webkit-input-placeholder {
+color: #65737e;
+}
+
+.container-2 input#search:-moz-placeholder { /* Firefox 18- */
+color: #65737e;  
+}
+
+.container-2 input#search::-moz-placeholder {  /* Firefox 19+ */
+color: #65737e;  
+}
+
+.container-2 input#search:-ms-input-placeholder {  
+color: #65737e;  
+}
+.container-2 .icon{
+position: absolute;
+top: 50%;
+margin-top: 13px;
+left: 13px;
+z-index: 1;
+color: #4f5b66;
+}
+.container-2 input#search:focus, .container-2 input#search:active{
+outline:none;
+width: 300px;
+}
+
+.container-2:hover input#search{
+width: 300px;
+text-align: right;
+}
+
+.container-2:hover .icon{
+color: #93a2ad;
+}
+
+
+/* Header
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+/* Slideshow
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+.slidecont {
+    height: 558px;
+}
+.slidecont .item img {
+    width: 100%;
+    height: 558px;
+}
+.slidecont .carousel-caption {
+    bottom: 185px;
+}
+.slidecont .carousel-caption h2 {
+    text-align: center;
+    color: #283047;
+    font-size: 26px;
+}
+.slidecont .carousel-caption p {
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.carousel-control.left,
+.carousel-control.right {
+    background-image: none;
+}
+.carousel-control.right {
+    right: 16px;
+}
+.carousel-control,
+.carousel-control:hover,
+.carousel-control:focus {
+    opacity: 1;
+}
+.carousel-control.right span ,
+.carousel-control.left span {
+    background-color: rgba(255, 255, 255, 0.42);
+    height: 50px;
+    width: 55px;
+    padding: 15px;
+    font-size: 15px;
+    text-shadow: none;
+    border-radius: 50%;
+}
+/* Slideshow
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+/*about*/
+
+.aboutcompany {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+.abouthead h1 {
+    color: #111111;
+    font-size: 22px;
+}
+.abouthead span {
+    font-size: 18px;
+    color: #3e83ae;
+}
+.abouttxt h2 {
+    font-size: 18px;
+    color: #3e83ae;
+}
+.abouttxt p {
+    color: #4a575f;
+    font-size: 15px;
+    line-height: 24px;
+    margin: 0;
+}
+.abouttxt span {
+    display: block;
+    text-align: left;
+}
+.abouttxt span a {
+    color: #111111;
+    font-size: 22px;
+}
+.aboutdownloadpdf {
+    background-color: #e3f5ff;
+    padding: 30px 10px;
+    margin-top: 10px;
+}
+.aboutdownloadpdf a {
+    color: #354149;
+    font-size: 17px;
+}
+.aboutdownloadpdf span {
+    display: block;
+    text-align: left;
+    color: #3c627a;
+    font-size: 13px;
+    padding-top: 5px;
+}
+.downodfabout {
+    border-left: 1pt solid #4a575f;
+    padding-left: 10px;
+}
+.pdficon {
+    text-align: center;
+}
+.pdficon i {
+    font-size: 60px;
+}
+
+
+
+
+
+.aboutvedio iframe {
+    width: 100%;
+    height: auto;
+    min-height: 262px;
+    margin-top: 10px;
+}
+
+
+/*about*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*projects*/
+
+.projects {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+.projhead {
+    text-align: center;
+}
+.projhead h1 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #3b474e;
+}
+.projhead span {
+    font-size: 13px;
+    color: #3b474e;
+}
+.projhead span i {
+    color: #959595;
+}
+.projcursels {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.projcursels a i {
+    color: white;
+    background-color: #16a085;
+    padding: 15px 22px;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.3s;
+}
+.projcursels a i:hover {
+    color: #747474;
+    background-color: #e3f5ff;
+    transition: 0.3s;
+}
+.img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+.img .imghover {
+    background-color: rgba(27, 20, 100, 0.83);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+.img .imghover:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+.img .imghover h2 {
+    color: white;
+    font-size: 18px;
+}
+span.projview {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+span.projview i {
+    color: white;
+    font-size: 60px;
+}
+span.share {
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+span.share i {
+    color: white;
+    font-size: 15px;
+    padding: 0 5px;
+}
+.img img {
+    width: 100%;
+}
+.projblock p {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 14px;
+    color: #3b474e;
+    line-height: 25px;
+}
+span.moreview {
+    display: block;
+    text-align: left;
+}
+span.moreview a {
+    font-size: 13px;
+    color: #00aeef;
+}
+span.moreview a i {
+    color: #797979;
+}
+
+
+/*projects*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*servblock*/
+
+.services {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #eff3f3;
+}
+.servhead {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.servhead h1 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #3b474e;
+}
+.servhead span {
+    font-size: 13px;
+    color: #3b474e;
+}
+.servblock {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    transition: 0.5s;
+}
+.servblockico i {
+    color: #16a085;
+    font-size: 50px;
+    transition: 0.5s;
+}
+.servblock h2 {
+    padding-top: 25px;
+    font-size: 24px;
+    color: #36485a;
+    transition: 0.5s;
+}
+.servblock p {
+    font-size: 14.5px;
+    color: #485969;
+    transition: 0.5s;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+.servblockmore {
+    padding-top: 25px;
+    opacity: 0;
+    transition: 0.5s;
+}
+.servblockmore a {
+    color: white;
+    font-size: 15px;
+}
+.servblock:hover {
+    background-color: #16a085;
+    transition: 0.5s;
+}
+.servblock:hover i {
+    color: white;
+    transition: 0.5s;
+}
+.servblock:hover h2 {
+    color: white;
+    transition: 0.5s;
+}
+.servblock:hover p {
+    color: white;
+    transition: 0.5s;
+}
+.servblock:hover .servblockmore {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+/*servblock*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* news */
+
+.news {
+    background-image: url("../img/newsback.png");
+    background-repeat: repeat;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.newshead {
+    text-align: center;
+    padding-bottom: 50px;
+}
+.newshead h1 {
+    font-size: 19px;
+    color: white;
+}
+.newsblockimg {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.newsblockimg img {
+    width: 100%;
+}
+.newsblockimghover {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background-color: #16a085;
+    left: 5px;
+    text-align: center;
+    padding: 10px;
+    margin-top: -3px;
+}
+.newsblockimghover span {
+    color: white;
+    font-size: 14px;
+}
+.newsblock h2 {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 25px;
+}
+.newsblock p {
+    color: #b2b2b2;
+    font-size: 14px;
+}
+.morenews1 {
+    text-align: left;
+}
+.morenews1 a {
+    color: white;
+    font-size: 14px;
+}
+
+
+.newsimg1 {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.newsimg1 img {
+    width: 100%;
+}
+.newsimg1hover {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    background-color: rgba(22, 160, 133, 0.71);
+    bottom: 0;
+    padding: 20px 10px;
+}
+.newsimg1hover p {
+    color: white;
+    margin: 0;
+    font-size: 13px;
+    line-height: 25px;
+}
+.morenews2 {
+    text-align: left;
+    padding-top: 25px;
+}
+.morenews2 a {
+    color: white;
+    font-size: 14px;
+}
+.morenews2 a img {
+    display: inline-block;
+}
+
+/* news */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*ourclints*/
+
+.ourclints {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+.ourclintshead {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.ourclintshead h1 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #3b474e;
+}
+.ourclintshead span {
+    font-size: 13px;
+    color: #3b474e;
+}
+.clint {
+    width: 100%;
+    height: auto;
+    min-height: 210px;
+}
+.clint p {
+    font-size: 15px;
+    color: #666666;
+    line-height: 25px;
+    border: 1pt solid #ececeb;
+    padding: 10px;
+}
+.clintname {
+    margin-top: -15px;
+}
+.clintimg {
+    width: 74px;
+    height: 77px;
+    display: inline-block;
+    float: left;
+}
+.clintimg img {
+    width: 100%;
+    height: 100%;
+}
+.clintposti {
+    text-align: left;
+    float: left;
+    padding: 15px;
+}
+.clintposti span {
+    display: block;
+    line-height: 27px;
+}
+span.cname {
+    font-size: 18px;
+    font-weight: bold;
+    color: #39434d;
+}
+span.cdis {
+    font-size: 14px;
+    color: #39434d;
+}
+.ourclints .carousel-indicators {
+    right: 0;
+    left: 0;
+    margin: auto;
+    padding: 0;
+    top: 50px;
+}
+.ourclints .carousel-indicators li {
+    background-color: #677887;
+    height: 15px;
+    width: 15px;
+    border: 0;
+    margin: 0;
+}
+.ourclints .carousel-indicators li.active {
+    background-color: #1d823e;
+}
+
+/*ourclints*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*gallery*/
+
+.gallery {
+    background-color: #2c2c2c;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+.galleryhead {
+    text-align: center;
+}
+.galleryhead h1 {
+    color: white;
+}
+.gallerytabs ul {
+    border: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.gallerytabs ul li {
+    float: none;
+    display: inline-block;
+}
+.gallerytabs ul li.active a {
+    background-color: #148f7b!important;
+}
+.gallerytabs ul li a, .gallerytabs ul li a:hover,
+.gallerytabs ul li a:focus, .gallerytabs ul li a:active,
+.gallerytabs ul li a:focus:active {
+    background-color: transparent;
+    border-radius: 4px!important;
+    color: white!important;
+    border: 0!important;
+    cursor: pointer!important;
+    border-color: transparent!important;
+    width: 75px;
+}
+.galleryblock {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.galleryblock > img {
+    width: 100%;
+}
+.galleryblockhover {
+    position: absolute;
+    background-color: rgba(22, 160, 133, 0.88);
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    opacity: 0;
+    transition: 0.3s;
+}
+.galleryblockhover:hover {
+    opacity: 1;
+    transition: 0.3s;
+}
+.galleryblockhover h2 {
+    font-size: 20px;
+    color: white;
+}
+span.galleryblockview {
+}
+span.galleryblockview img {
+    margin: auto;
+    padding-bottom: 25px;
+}
+span.galleryblockshare {
+}
+span.galleryblockshare i {
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+}
+
+/*gallery*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+maillist
+*/
+
+.maillist {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.maillisthead {
+    text-align: center;
+}
+.maillisthead h1 {
+    font-size: 33px;
+    font-weight: bold;
+    color: #3b474e;
+}
+.maillisthead p {
+    font-size: 13px;
+    color: #3b474e;
+}
+.maillistinput {
+    border: 1pt solid #d8dadc;
+    border-radius: 4px;
+    width: 50%;
+    margin: auto;
+}
+.maillistinput input, .maillistinput input:focus,
+.maillistinput input:active {
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    outline-offset: 0;
+    padding: 5px 15px;
+    width: 80%;
+}
+.maillistinput i {
+    color: #50768c;
+    float: left;
+    padding: 11px;
+}
+
+/*
+maillist
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+follow
+*/
+
+.followhead {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.followhead h1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #3b474e;
+}
+.followlinks {
+    text-align: center;
+    margin-bottom: 80px;
+}
+.followlinks ul li {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: #34495e;
+    border-radius: 50%;
+    padding: 6px;
+    transition: 0.5s;
+}
+.followlinks ul li:hover {
+    background-color: #148f7b;
+    transition: 0.5s;
+}
+.followlinks ul li a {
+    font-size: 28px;
+    color: white;
+}
+
+/*
+follow
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+.footerdn {
+    background-color: #2c2c2c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.footerright {
+    float: right;
+    padding-top: 7px;
+}
+.footerright a {
+    font-size: 12px;
+    color: white;
+}
+.footerleft img {
+    float: left;
+    padding: 5px;
+}
+
+/* Footer
+****************************************************************************************************************
+****************************************************************************************************************
+****************************************************************************************************************
+*/
+
+
+
+
+
+
+
+
+
+

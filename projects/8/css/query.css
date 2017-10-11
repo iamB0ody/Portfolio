@@ -1,0 +1,198 @@
+
+
+
+/* 1200 md */
+@media (max-width:1200px){
+    .search form {
+        padding: 0 150px;
+    }
+    .user-edit-profile form {
+        width: 95%;
+    }
+    .righthead h4 {
+        padding-top: 30px;
+    }
+    .csc label {
+        text-align: center;
+    }
+    .tabsmaneg {
+        min-height: 210px;
+        padding: 0 100px;
+    }
+}
+
+/* 991 sm */
+@media (max-width:991px){
+    .search form {
+        padding: 0 80px;
+    }
+    body {
+        background: url(../img/back.png) no-repeat center -50px fixed;
+    }
+    .user-edit-profile form {
+        width: 90%;
+    }
+    .img-profile {
+        text-align: center;
+        margin: auto;
+    }
+    .img-profile input {
+        width: 200px;
+        margin: auto;
+    }
+    .notidata a {
+        font-size: 11px;
+    }
+    .tc {
+        display: inline;
+    }
+    .tabsmaneg {
+        min-height: 210px;
+        padding: 0 50px;
+    }
+
+}
+
+/* 767 xs */
+@media (max-width:767px){
+    .logo {
+        text-align: center;
+    }
+    .logo img {
+        float: none;
+    }
+    .search form {
+        padding: 0 20px;
+    }
+    body {
+        background: url(../img/back.png) no-repeat center -50px fixed;
+    }
+    .logreg ul {
+        float: none;
+        text-align: center;
+    }
+    .regcont form {
+        width: 100%;
+    }
+    .user-edit-profile form {
+        width: 95%;
+    }    
+    .passl {
+        text-align: center;
+    }
+    .user-edit-profile label {
+        float: none;
+    }
+    .righthead h4 {
+        text-align: center;
+    }
+    .lefthead img {
+        float: none;
+        margin: auto;
+        padding: 10px 0;
+    }
+    .mal3abinfo {
+        min-height: 0;
+    }
+    .carousel-indicators {
+        bottom: -47px;
+    }
+    .carousel-indicators li, .carousel-indicators .active {
+        height: 30px;
+        width: 30px;
+    }.bookinmatchsea input {
+        margin-bottom: -15px;
+    }
+    .bookinmatchsea button, .bookinmatchsea select {
+        margin-top: 15px;
+    }
+    .rightinput label {
+        width: 100%;
+    }
+    .textleft, .textright {
+        text-align: center;
+    }
+    .textleft h5, .textright h5 {
+        text-align: center;
+        float: none;
+    }
+    .team img {
+        height: 70px;
+    }
+    .borderleft {
+        border-left: 0;
+    }
+    .teamname {
+        text-align: center;
+    }
+    .teamimg {
+        margin: auto;
+        text-align: center;
+    }
+    .teamimg img {
+        float: none;
+        margin: auto;
+    }
+    .teammemp ul {
+        text-align: center;
+    }
+    .teamimg label {
+        position: static;
+    }
+    li.chalenthat {
+        float: none;
+        text-align: center;
+    }
+    .t7dy {
+        margin-top: 0;
+    }
+    .bton {
+        padding-left: 5px;
+    }
+    .csc select {
+        width: 100%!important;
+    }
+    .notibtmes {
+        display: none;
+    }
+    .notimob {
+        display: block;
+    }
+    .notibthead {
+        margin-bottom: 20px;
+    }
+    .disnon {
+        display: none;
+    }
+    .passresetbt {
+        padding-right: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+    ul.dropdown-menu {
+        margin-right: 0px;
+    }
+    .tabsmaneg {
+        min-height: 210px;
+        padding: 0;
+    }
+}
+
+
+/**/
+
+@media (max-width:500px){
+
+}
+
+/**/
+@media (max-width:387px){
+
+}
+
+
+
+/* custom */
+@media (max-width:710px){
+
+}

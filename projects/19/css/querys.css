@@ -1,0 +1,87 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {
+}
+
+
+/* sm */
+@media (max-width:991px) {
+    .leftcontacts {
+        text-align: center;
+    }
+}
+
+
+/* xs */
+@media (max-width:767px) {
+    .carousel-control.right span ,
+    .carousel-control.left span {
+        height: 40px;
+        width: 40px;
+        padding: 12px;
+    }
+    .container-2 {
+        width: 100%;
+        text-align: center;
+    }
+    .container-2 .icon {
+        display: none;
+    }
+    .container-2 input#search, .container-2:hover input#search {
+        float: none;
+        width: 90%;
+    }
+    .maillistinput {
+        width: 80%;
+    }
+    .navbar-default .navbar-nav>li, .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus
+    {
+        margin: 0;
+        text-align: center;
+    }
+    .navbar-default .navbar-nav>li>a:after {
+        color: transparent;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li:hover,
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:focus,
+    .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0;
+    }
+    .downodfabout {
+        border-left: 0;
+        text-align: center;
+    }
+    .aboutdownloadpdf span {
+        text-align: center;
+    }
+    .pdficon {
+        padding-top: 15px;
+    }
+    .aboutcomptxt {
+        text-align: center;
+    }
+    .aboutcompvdio {
+        text-align: center;
+    }
+    .footerright {
+        text-align: center;
+        margin-bottom: 15px;
+        float: none;
+    }
+    .footerleft img {
+        float: none;
+    }
+    .footerleft img {
+        margin: auto;
+    }
+}

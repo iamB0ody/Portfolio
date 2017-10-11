@@ -1,0 +1,36 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {}
+
+
+/* sm */
+@media (max-width:991px) {
+}
+
+/* xs */
+@media (max-width:767px) {
+    .topnav .navbar-nav>li {
+        width: 100%;
+    }
+    .topnav ul {
+        width: auto;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        border-color: transparent;
+    }
+    .logo img {
+        margin: auto;
+    }
+    .pages {
+        text-align: center;
+    }
+    .topnav .navbar-collapse {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

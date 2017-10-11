@@ -1,0 +1,64 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {
+    .icontitlepage {
+        width: 6%;
+    }
+    .titlepage {
+        width: 93%;
+    }
+    .iconhead {
+        width: 6%;
+    }
+    .morehead {
+        width: 93%;
+    }
+}
+
+
+/* sm */
+@media (max-width:991px) {
+}
+
+
+/* xs */
+@media (max-width:767px) {
+    .header-top {
+        text-align: center;
+    }
+    .lefttop {
+        padding-top: 15px;
+        text-align: center;
+    }
+    .logo {
+        text-align: center;
+    }
+    .follow {
+        text-align: center;
+    }
+    .search {
+        margin-bottom: 25px;
+    }
+    .moread {
+        margin-bottom: 20px;
+    }
+    .navbar-default .navbar-nav>li, .navbar-default .navbar-nav>li:hover, .navbar-default .navbar-nav>li:focus
+    {
+        margin: 0;
+    }
+    .navbar-nav {
+        margin: 0;
+    }
+    .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li:hover,
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li:focus,
+    .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover, .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.active>a {
+        border-radius: 0;
+    }
+}

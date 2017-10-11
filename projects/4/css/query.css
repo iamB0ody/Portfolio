@@ -1,0 +1,303 @@
+
+
+
+
+
+/* 1200 md */
+@media (max-width:1200px){
+.ad {
+    margin: 10px 0 60px 0;
+}
+.carousel-control.left, .carousel-control.right {
+        width: 41px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: 10px;
+    }
+    
+    .title {
+        width: 94%;
+        top: 63%;
+    }
+    .dis {
+        display: none
+    }
+    .col-new-25 {
+        width: 23.1%;    
+    }
+    .img2 img {
+        height: 100px;
+    }
+    .paymentform form {
+        padding: 15px 150px;
+    }
+    .price>.container {
+        padding: 10px 100px;
+    }
+    .desc p {
+        width: 80%;   
+    }
+    .addad form {
+        padding: 0 90px;
+    }
+    .notibthead a {
+        font-size: 13px;
+    }
+}
+
+/* 991 sm */
+@media (max-width:991px){
+.ad {
+    margin: 10px 0 20px 0;
+}
+.carousel-control.left, .carousel-control.right {
+        width: 32px;
+    }
+    .navbar-form .form-group {
+       margin-top: 5px;
+    }
+    .navbar-form .form-control {
+        margin: -5px 0 0 0;
+        height: 44px;
+    }
+
+    .navbar-form .btn-default {
+        padding: 7px 15px;
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: black;   
+    }
+    .title {
+        width: 92%;
+        top: 63%;
+    }
+    .col-new-25 {
+        width: 22.6%;    
+    }
+    .paymentform form {
+        padding: 15px 90px;
+    }
+    .price>.container {
+        padding: 10px 10px;
+    }
+    .desc p {
+        width: 90%;   
+    }
+    .pricetitle {
+        margin-bottom: 10px;
+    }
+    .reg {
+        border-top: 2pt solid black;
+        border-right: 0;
+    }
+    .login {
+        padding-bottom: 30px;   
+    }
+    .sidebar {
+        right: 0;
+        position: static;
+    }
+    .contactus {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .addad form {
+        padding: 0 40px;
+    }
+    .notibthead a {
+        font-size: 10px;
+    }
+    .notibt a {
+        font-size: 13px;
+    }
+}
+
+/* 767 xs */
+@media (max-width:767px){
+.sidebar h3 {
+    text-align: center;
+}
+.contactus a {
+    display: inline;
+    padding: 8px 25px;
+}
+.footbloc ul li p {
+    width: 90%;
+    margin: auto;
+}
+.carousel-control.left span {
+    padding: 0;
+    }
+    .logo {
+        margin-bottom: 20px;
+    }
+    .logo img {
+        float: none;
+        margin: auto;
+    }
+    .navbar-default .navbar-nav>li>a {font-size: 15px;}
+    .home, .navbar-form {}
+    .navbar-form .form-control {
+        width: 100%;
+        margin: 5px 0 0 0;
+    }
+    .navbar-form .btn-default {
+        width: 100%;
+        margin: 0;
+    }
+    .bar i {
+        display: none;
+    }
+    .nav {
+        padding: 0;   
+    }
+    .title {
+        width: 92%;
+        top: 55%;
+    }
+    .filter, .bar, .filtern {display: none;}
+    .ico1 span i, .ico2 span i, .ico3 span i, .ico4 span i, .ico5 span i, .ico6 span i, .ico7 span i, .ico8 span i {margin-left: -31px;}
+    .slide {margin-top: 50px;}
+    .userinfo {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .rep {
+        margin-right: 0;
+    }
+    .sidebar h3 {
+        text-align: center;
+    }
+    .share {
+        margin: 25px 10px;
+    }
+    .footbloc {
+        text-align: center;
+    }
+    .footbloc ul li a {
+        line-height: 25px;   
+    }
+    .footbloc img {
+        margin: auto;
+    }
+    .listfoot ul {
+        text-align: center;
+    }
+    .listfoot ul li a {
+        line-height: 25px;
+    }
+    .col-new-25 {
+        width: 22.4%;    
+    }
+    .subm {
+        height: 185px; 
+        padding: 10px 0;
+    }
+    .subm img {
+        margin: 10px auto;
+    }
+    .subm>input {
+        width: 95%;
+        margin: 10px auto;
+    }
+    .subm>.btn-default {
+        padding: 5px 30px;
+    }
+    .desc p {
+        width: 95%;   
+    }
+    .bankname {
+        padding-bottom: 10px;
+    }
+    .bankname img {
+        float: none;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .cc {
+        width: 100%;
+        height: 50px;
+    }
+    .addad form {
+        padding: 0 10px;
+    }
+    .noti {
+        display: none;
+    }
+    .notimob {
+        display: block;
+    }
+    .notidata {
+        margin-bottom: 15px;
+    }
+    .notidata a {
+        font-size: 12px;
+    }
+    .notibtmes {
+        display: none;
+    }
+}
+
+
+
+
+
+/* custom */
+@media (max-width:710px){
+    .col-new-25 {
+        width: 30.7%; 
+        margin: auto 8.7px;
+    }
+}
+@-moz-document url-prefix() { 
+  .file-upload-input {
+     height: 45px!important;
+  }
+  .bar {
+     height: 52px;
+  }
+  .home {
+    padding: 12px 15px!important;
+  }
+}
+
+
+/* 320 iphone 4 */
+
+@media (max-width:320px){
+    
+
+.col-md-12.ealan1>div#carousel-example-generic.carousel.slide a.left.carousel-control,
+.col-md-12.ealan1>div#carousel-example-generic.carousel.slide a.right.carousel-control    
+    {
+      margin-top: 40%;
+    }
+
+}
+
+
+/* 500 */
+
+@media (max-width:500px){
+    
+
+    .col-xxs-12 {
+        width: 100%;
+        float: right;
+        position: relative;
+        min-height: 1px;
+        padding-left: 15px;
+        padding-right: 15px; 
+    }
+
+
+}
+
+/**/
+@media (max-width:320px){
+    .title {
+        width: 84%;
+        top: 55%;
+    }
+}

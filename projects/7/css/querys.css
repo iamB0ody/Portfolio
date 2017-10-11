@@ -1,0 +1,87 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {
+
+}
+
+
+/* sm */
+@media (max-width:991px) {
+	.catshead {
+  	  margin-top: 80px;
+	}
+	.followhead {
+		margin-top: 78px;
+	}
+	.galleryhead {
+		margin-top: 160px;
+	}
+    .slideprod .carousel-indicators li, .carousel-indicators {
+        width: 48%;
+    }
+}
+
+/* xs */
+@media (max-width:767px) {
+    .displaynonexs {
+    	display: none;
+    }
+    .aboutushead {
+    	margin-top: 0;
+    	text-align: center;
+    }
+    .aboutuscont {
+    	text-align: center;
+    }
+    .aboutuscont span {
+    	float: none;
+    }
+    .followhead {
+    	margin-top: 50px;
+    	text-align: center;
+    }
+    .followcont {
+    	text-align: center;
+    }
+    .followmore {
+    	text-align: center;
+    }
+    .followmore span {
+    	float: none;
+    }
+    .orderhead {
+    	margin-top: 50px;
+    	text-align: center;
+    }
+    .ordercont {
+    	text-align: center;
+    }
+    .ordercont span {
+    	float: none;
+    }
+    .catshead {
+    	margin-top: 50px;
+    	text-align: center;
+    }
+    .catscont {
+    	text-align: center;
+    }
+    .galleryhead {
+    	margin-top: 50px;
+    	text-align: center;
+    }
+    .gallerycont {
+    	text-align: center;
+    }
+    .viewinfo {
+        padding-bottom: 30px;
+    }
+    .slideprod .carousel-indicators li, .carousel-indicators {
+        width: 24%;
+    }
+}

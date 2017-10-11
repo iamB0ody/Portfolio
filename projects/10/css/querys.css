@@ -1,0 +1,112 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {
+    .righttopnav a {
+        font-size: 10px;
+    }
+    .follow a img {
+        height: 25px;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+    .ontop h1 {
+        font-size: 13px;
+        margin-bottom: 5px;
+        font-weight: bold;
+    }
+    .ontop p {
+        font-size: 11px;
+    }
+}
+
+
+/* sm */
+@media (max-width:991px) {
+    .righttopnav {
+        text-align: center;
+    }
+    .righttopnav a {
+        font-size: 15px;
+    }
+    .follow {
+        text-align: center;
+    }
+    .follow a img {
+        height: auto;
+    }
+    .lang {
+        text-align: center;
+    }
+    .navbar-collapse {
+        padding: 0;
+    }
+    .leftposts .post h1 {
+        font-size: 13px;
+        margin-bottom: 0;
+        font-weight: bold;
+    }
+    .leftposts .post p {
+        font-size: 11px;
+    }
+    .ontop h1 {
+        margin-bottom: 0;
+        line-height: 20px;
+    }
+}
+
+
+/* xs */
+@media (max-width:767px) {
+    .righttopnav .col-sm-3, .righttopnav .col-sm-4, .righttopnav .col-sm-5 {
+        padding-bottom: 5px;
+    }
+    .follow {
+        padding-bottom: 10px;
+    }
+    .navbar-collapse {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    .rightfoot, .leftfoot {
+        text-align: center;
+    }
+    .footerright {
+        float: none;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .footerleft img {
+        float: none;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .ontop h1 {
+        margin-bottom: 10px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .porto img {
+        height: 150px;
+    }
+}
+
+@media (max-width:450px) {
+    .porto img {
+        height: 125px;
+    }
+    .insideblock h1 {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .insideblock p {
+        font-size: 11px;
+    }
+}

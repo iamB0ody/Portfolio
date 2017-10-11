@@ -1,0 +1,15 @@
+.logo {text-align: left;}
+.logs a {padding-left: 0;padding-right: 10px;}
+.siteinfo h4 {text-align: left;}
+.siteinfo p {text-align: left;}
+.leftminu {text-align: right;}
+.slideproud1cont {padding: 3px 6px 6px 0;}
+a.headtittle {text-align: left;}
+.slideproud1cont .carousel-control.left, .slideproud1cont .carousel-control.right, .slideproud1cont .carousel-control.left:hover, .slideproud1cont .carousel-control.right:hover, .slideproud1cont .carousel-control.left:focus, .slideproud1cont .carousel-control.right:focus {
+    float: right;
+}
+a.headtittle i {padding-right: 0;padding-left: 5px;}
+.slideproud2cont .carousel-control.left, .slideproud2cont .carousel-control.right, .slideproud2cont .carousel-control.left:hover, .slideproud2cont .carousel-control.right:hover, .slideproud2cont .carousel-control.left:focus, .slideproud2cont .carousel-control.right:focus {
+    float: right;
+}
+.footerright img {float: right;}

@@ -1,0 +1,73 @@
+/*
+*
+    By:- Alyasser Group
+*
+*/
+
+/* md */
+@media (max-width:1200px) {}
+
+
+/* sm */
+@media (max-width:991px) {
+}
+
+/* xs */
+@media (max-width:767px) {
+    .date {
+        text-align: center;
+    }
+    form.navbar-form.navbar-left {
+        text-align: center;
+    }
+    .search .form-group {
+        display: inline-block;
+    }
+    .search input, .search input:focus, .search input:active {
+        padding: 17px 15px 14px 0;
+    }
+    .social {
+        text-align: center;
+    }
+    .logo {
+        text-align: center;
+    }
+    .logo img {
+        margin: auto;
+    }
+    .navbar-abdo button {
+        border: 1pt solid white;
+    }
+    .navbar-abdo button span {
+        background-color: white;
+    }
+    .navbar-abdo .navbar-collapse {
+        text-align: center;
+    }
+    .navbar-abdo .navbar-nav {
+        margin: 0;
+    }
+    .newstext {
+        margin-bottom: 40px;
+    }
+    .placescontrol {
+        top: 18px;
+    }
+    .placeimg {
+        margin-bottom: 20px;
+    }
+    .vote {
+        margin-top: 35px;
+    }
+    .map iframe {
+        margin-top: 25px;
+    }
+    #footer {
+        text-align: center;
+    }
+    #footer img {
+        float: none;
+        margin: auto;
+        margin-top: 25px;
+    }
+}
