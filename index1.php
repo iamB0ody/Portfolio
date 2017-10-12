@@ -25,6 +25,69 @@
 <?php include 'skills.php'; ?>
 
 
+
+<!-- start Timeline -->
+
+
+<div class="container experience">
+	<div class="row">
+
+		<div class="col-xs-12 headofsection">
+			<h6>experiences</h6>
+		</div>
+
+		<div class="col-xs-12 timeline">
+			<div class="row">
+				<ul>
+
+					<li class="col-xs-12">
+						<div class="col-sm-6 left">
+							<h1>intermark</h1>
+							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 2016 - Present</p>
+							<p>
+								FULL-FLEDGED MARKETING AND ADVERTISING CONSULTANCY, <br>
+								InterMark is a fully-integrated healthcare marketing consulting firm with a wealth of experience and expertise in providing engaging, relevant, innovative strategies, and memorable creative experiences that differentiate and position for success. <br>
+								Since its inception in 1994, InterMark has excelled in extracting the full market potential for healthcare brands and deeply understands the influence of patients, physicians, caregivers and health organizations on the brand success.
+							</p>
+						</div>
+					</li>
+
+					<li class="col-xs-12">
+						<div class="col-sm-6 right">
+							<h1>Al-yasser Group</h1>
+							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Oct 2015 to Jul 2016</p>
+							<p>
+								Al-Yasser Group comes with a new concept to convert client ideas into a tangible reality through the great experience in the field of web designing and development, and in a short period it become one of the leading companies in this field.
+							</p>
+						</div>
+					</li>
+
+					<li class="col-xs-12">
+						<div class="col-sm-6 left">
+							<h1>3A international Group</h1>
+							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i> May 2015 to Jul 2015</p>
+							<p>
+								3A International Group for Information Technology and Systems is an Egyptian official company with a global experience that has gained from a real world of business confidence in various disciplines.
+							</p>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+	</div>
+</div>
+
+
+
+<!-- End Timeline -->
+
+
+
 <div class="container portfolio">
 	<div class="row">
 
@@ -44,7 +107,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>fda2l al eslam</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -60,7 +123,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>amlag</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -76,7 +139,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>bazar</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -92,7 +155,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>blmeter</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -108,7 +171,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>elber assosiation</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -124,7 +187,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>harag cars</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -140,7 +203,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>ladeen</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -156,7 +219,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>mala3b</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -172,7 +235,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>psd to html</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -188,7 +251,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>noor taibah</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -204,7 +267,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>rabe7</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -220,7 +283,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>dr saad alharbi</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -236,7 +299,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>ibn taymiyyah schools</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -252,7 +315,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>almadinah guide</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -268,7 +331,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>amjad al tayseer finance co.</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -284,7 +347,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>aldwa3y ll3lamat ale3rabih</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -300,7 +363,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>golden explorer</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -316,7 +379,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>elkhalig markets</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -332,7 +395,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>angal ellhandsa general contracting</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -348,7 +411,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>twsl com</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
@@ -364,7 +427,7 @@
 						</ul>
 					</div>
 				</div>
-				<h1>name of project</h1>
+				<h1>zafat</h1>
 			</div><!-- item -->
 		</div><!-- col-lg-3 col-md-4 col-sm-4  -->
 
