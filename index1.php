@@ -42,6 +42,18 @@
 
 					<li class="col-xs-12">
 						<div class="col-sm-6 left">
+							<h1>70Labs</h1>
+							<b><i class="fa fa-briefcase" aria-hidden="true"></i> Co-Founder - Cairo, Egypt</b>
+							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Oct 2017 - Present</p>
+							<p>
+								70Labs for advanced web services specializing in web services.We have spent a lot of time providing free hosting, design and programming sites which have made us currently experienced in programming and web services. <br>
+								70Labs is a leader in web hosting protection and also technical support. Our client base is made up of the largest Arabic web sites.
+							</p>
+						</div>
+					</li>
+
+					<li class="col-xs-12">
+						<div class="col-sm-6 right">
 							<h1>intermark</h1>
 							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
 							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 2016 - Present</p>
@@ -54,7 +66,7 @@
 					</li>
 
 					<li class="col-xs-12">
-						<div class="col-sm-6 right">
+						<div class="col-sm-6 left">
 							<h1>Al-yasser Group</h1>
 							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
 							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Oct 2015 to Jul 2016</p>
@@ -65,7 +77,7 @@
 					</li>
 
 					<li class="col-xs-12">
-						<div class="col-sm-6 left">
+						<div class="col-sm-6 right">
 							<h1>3A international Group</h1>
 							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
 							<p><i class="fa fa-clock-o" aria-hidden="true"></i> May 2015 to Jul 2015</p>
