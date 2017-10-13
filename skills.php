@@ -31,6 +31,26 @@
 					<img src="img/icons/ts.png" alt="">
 					<p>typescript</p>
 				</li>
+				<li class="skill">
+					<img src="img/icons/wp.png" alt="">
+					<p>wordpress</p>
+				</li>
+				<li class="skill">
+					<img src="img/icons/mag.svg" alt="">
+					<p>magento</p>
+				</li>
+				<li class="skill">
+					<img src="img/icons/npm.svg" alt="">
+					<p>npm</p>
+				</li>
+				<li class="skill">
+					<img src="img/icons/git.svg" alt="">
+					<p>git</p>
+				</li>
+				<li class="skill">
+					<img src="img/icons/linux.png" alt="">
+					<p>linux</p>
+				</li>
 			</ul>
 		</div>
 

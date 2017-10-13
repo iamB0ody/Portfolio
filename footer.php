@@ -4,7 +4,7 @@
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-12">
-				<a>From the bottom of my heart i thank you for visiting my site</a>
+				<a>From the bottom of my heart <i class="fa fa-heart" aria-hidden="true"></i> i thank you for visiting my site</a>
 			</div><!-- row -->
 	</div><!-- container-fluid downfooter -->
 </footer><!-- #footer -->
@@ -31,7 +31,7 @@
 						//alert(num);
 					});
 				}
-				
+
     	});
     </script>
   </body>
