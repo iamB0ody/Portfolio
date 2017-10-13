@@ -42,7 +42,7 @@
 
 					<li class="col-xs-12">
 						<div class="col-sm-6 left">
-							<h1>70Labs</h1>
+							<a href="http://www.70labs.com" target="_blank"><h1>70Labs</h1></a>
 							<b><i class="fa fa-briefcase" aria-hidden="true"></i> Co-Founder - Cairo, Egypt</b>
 							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Oct 2017 - Present</p>
 							<p>
@@ -54,7 +54,7 @@
 
 					<li class="col-xs-12">
 						<div class="col-sm-6 right">
-							<h1>intermark</h1>
+							<a href="http://www.imnhealth.com" target="_blank"><h1>intermark</h1></a>
 							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
 							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Nov 2016 - Present</p>
 							<p>
@@ -67,7 +67,7 @@
 
 					<li class="col-xs-12">
 						<div class="col-sm-6 left">
-							<h1>Al-yasser Group</h1>
+							<a href="https://www.al-yasser.com.sa" target="_blank"><h1>Al-yasser Group</h1></a>
 							<b><i class="fa fa-briefcase" aria-hidden="true"></i> UI Developer - Cairo, Egypt</b>
 							<p><i class="fa fa-clock-o" aria-hidden="true"></i> Oct 2015 to Jul 2016</p>
 							<p>
