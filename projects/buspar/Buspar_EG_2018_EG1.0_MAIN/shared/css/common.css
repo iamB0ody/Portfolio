@@ -38,3 +38,5 @@
 /* end fonts */
 
 .gbl-strp{position: absolute;left: 0px;top:43px;}
+
+#email .selectorCount.hidden, .hidden {display:none!important;}
