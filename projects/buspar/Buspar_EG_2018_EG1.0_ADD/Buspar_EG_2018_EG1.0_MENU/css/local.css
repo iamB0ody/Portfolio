@@ -1,0 +1,86 @@
+/* Local CSS */
+
+.topNav {
+    left: 245px;
+    top: 84px;
+    z-index: 99999;
+}
+
+#menuMain {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 68px;
+    top: 150px;
+}
+
+#menuMain li {
+    font-size: 21.83px;
+    color: #fefefe;
+    text-align: center;
+    background-image: url('../media/images/blue-tap.png');
+    width: 224px;
+    height: 58px;
+    padding: 18px 0;
+    cursor: pointer;
+    font-family: "HelveticaLTStd-Cond";
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.cstomclass  {
+    background-image: url('../media/images/orange-tap.png ')!important;
+    height: 57px !important;
+
+
+}
+
+#menuMain li img {
+    position: absolute;
+    right: 10px;
+    top: 9px;
+
+}
+
+
+#menuMain sup {
+    font-size: 12px;
+    /* margin: -6px; */
+}
+
+#footertex {
+    font-size: 12px;
+    font-family: "HelveticaLTStd-Cond";
+    position: absolute;
+    color: #000000;
+    left: 66px;
+    top: 644px;
+}
+
+#secMenu {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 301px;
+    top: 144px;
+    background-image: url('../media/images/bleu-taps.png');
+    width: 229px;
+    height: 98px;
+    display: none;
+}
+
+#secMenu li {
+    list-style: none;
+    font-size: 19px;
+    color: #fefefe;
+    text-align: center;
+    padding: 12px 0;
+    cursor: pointer;
+    font-family: "HelveticaLTStd-Cond";
+    position: relative;
+}
+
+#menu {
+    background-image: url(../../shared/media/icons/menu-hg.png) !important;
+    opacity: 1 !important;
+}

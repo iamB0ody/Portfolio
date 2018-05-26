@@ -1,0 +1,23 @@
+/* Local CSS */
+
+
+
+#head {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	font-family: "HelveticaLTStd-Cond";
+	left: 77px;
+	top: 70px;
+}
+
+#head span {
+	font-family: "HelveticaLTStd-BlkCond";
+}
+
+#t1, #t2, #t3, #t4 {position: absolute;font-size: 17.5px;color: #3a3a3a;font-family: "HelveticaLTStd-Cond";left: 70px;}
+#t1 span, #t2 span, #t3 span, #t4 span {color: #0072bc;font-size: 22.5px;}
+#t1 {top: 147px;}
+#t2 {top: 215px;}
+#t3 {top: 262px;}
+#t4 {top: 309px;}

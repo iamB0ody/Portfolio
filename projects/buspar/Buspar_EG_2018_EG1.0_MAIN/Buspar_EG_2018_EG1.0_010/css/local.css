@@ -1,0 +1,283 @@
+/* Local CSS */
+
+#hdstrip {
+    position: absolute;
+    left: 0;
+    top: 68px;
+}
+
+#head {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    font-family: "HelveticaLTStd-Cond";
+    left: 90px;
+    top: 84px;
+    line-height: 28px
+}
+
+#head span {
+    font-family: "HelveticaLTStd-BlkCond";
+}
+
+p {
+    position: absolute;
+    font-family: "HelveticaLTStd-Cond";
+}
+
+#t1 {
+    font-size: 25px;
+    color: #f26011;
+    left: 73px;
+    top: 39px;
+}
+
+#gr1 {
+    position: absolute;
+    left: 93px;
+    top: 208px;
+}
+
+#z1 {
+    position: absolute;
+    left: 467px;
+    top: 212px;
+}
+
+#b1 {
+    position: absolute;
+    left: 290px;
+    top: 379px;
+}
+
+#gr2 {
+    position: absolute;
+    left: 545px;
+    top: 208px;
+}
+
+#z2 {
+    position: absolute;
+    left: 922px;
+    top: 212px;
+}
+
+#b2 {
+    position: absolute;
+    left: 748px;
+    top: 379px;
+}
+
+#t2 {
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff;
+    left: 118px;
+    top: 211px;
+    line-height: 14px;
+}
+
+#t2 span {
+    font-family: "HelveticaLTStd-BlkCond";
+}
+
+#t3 {
+    font-size: 12px;
+    color: #5d5d5d;
+    left: 441px;
+    top: 270px;
+    line-height: 14px;
+}
+
+#t4 {
+    font-size: 13.37px;
+    color: #606060;
+    left: 71px;
+    top: 372px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+#t5 {
+    font-size: 13.38px;
+    color: #5d5d5d;
+    left: 289px;
+    top: 507px;
+}
+
+#t6 {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+    left: 564px;
+    top: 211px;
+    line-height: 14px;
+}
+
+#t6 span {
+    font-family: "HelveticaLTStd-BlkCond";
+}
+
+#t7 {
+    font-size: 12px;
+    color: #5d5d5d;
+    left: 897px;
+    top: 275px;
+    line-height: 14px;
+}
+
+#t8 {
+    font-size: 13.37px;
+    color: #606060;
+    left: 522px;
+    top: 372px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+#t9 {
+    font-size: 13.38px;
+    color: #5d5d5d;
+    left: 744px;
+    top: 507px;
+}
+
+#t10 {
+    font-size: 14.3px;
+    color: #5d5d5d;
+    left: 368px;
+    top: 540px;
+}
+
+#t11 {
+    font-size: 12px;
+    color: #5d5d5d;
+    left: 920px;
+    top: 539px;
+}
+
+#t12 {
+    text-align: center;
+    font-size: 21.45px;
+    color: #0072bc;
+    left: 186px;
+    top: 561px;
+}
+
+#t13 {
+    font-size: 16.69px;
+    color: #5a5a5a;
+    left: 94px;
+    top: 619px;
+}
+
+#l1,
+#l2,
+#l3,
+#l4,
+#l5,
+#l6 {
+    z-index: 9999;
+    background-repeat: no-repeat;
+}
+
+#l1 {
+    position: absolute;
+    left: 158px;
+    top: 295px;
+    background-image: url('../media/images/l1.png');
+    max-width: 324px;
+    height: 130px;
+}
+
+#l2 {
+    position: absolute;
+    left: 159px;
+    top: 304px;
+    background-image: url('../media/images/l2.png');
+    max-width: 322px;
+    height: 117px;
+}
+
+#l3 {
+    position: absolute;
+    left: 157px;
+    top: 319px;
+    background-image: url('../media/images/l3.png');
+    max-width: 324px;
+    height: 56px;
+}
+
+#l4 {
+    position: absolute;
+    left: 617px;
+    top: 315px;
+    background-image: url('../media/images/l4.png');
+    max-width: 327px;
+    height: 133px;
+}
+
+#l5 {
+    position: absolute;
+    left: 617px;
+    top: 315px;
+    background-image: url('../media/images/l5.png');
+    max-width: 327px;
+    height: 133px;
+}
+
+#l6 {
+    position: absolute;
+    left: 617px;
+    top: 315px;
+    background-image: url('../media/images/l6.png');
+    max-width: 327px;
+    height: 133px;
+}
+
+#scalenums,
+#scalenums2 {
+    padding: 0;
+    margin: 0;
+    z-index: 99999999;
+    position: absolute;
+    left: 132px;
+    top: 264px;
+    line-height: 38.5px;
+}
+
+#scalenums2 {
+    left: 586px;
+    line-height: 48px;
+    top: 260px;
+}
+
+#scalenums li,
+#scalenums2 li {
+    display: block;
+    color: #177fb0;
+    font-weight: bold;
+    text-align: right;
+}
+
+#scalenums3,
+#scalenums4 {
+    padding: 0;
+    margin: 0;
+    z-index: 99999999;
+    position: absolute;
+    left: 159px;
+    top: 473px;
+    line-height: 38.5px;
+}
+
+#scalenums4 {left: 611px;}
+
+#scalenums3 li,
+#scalenums4 li {
+    display: inline-block;
+    color: #177fb0;
+    font-weight: bold;
+    text-align: left;
+    width: 42px;
+}

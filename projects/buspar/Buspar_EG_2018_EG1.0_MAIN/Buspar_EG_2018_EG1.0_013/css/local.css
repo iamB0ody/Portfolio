@@ -1,0 +1,122 @@
+/* Local CSS */
+
+
+
+#head {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	font-family: "HelveticaLTStd-Cond";
+	left: 77px;
+	top: 70px;
+	width: 506px;
+}
+
+#head span {
+	font-family: "HelveticaLTStd-BlkCond";
+}
+
+p {
+	font-family: "HelveticaLTStd-Cond";
+	position: absolute;
+}
+
+sup {
+	font-size: 18px;
+}
+
+#t1 {
+	font-size: 30px;
+	color: #f26011;
+	left: 65px;
+	top: 141px;
+	font-weight: bold;
+}
+
+#t2 {
+	font-size: 18.66px;
+	color: #5a5a5a;
+	left: 65px;
+	top: 182px;
+	line-height: 30px;
+}
+
+#t2 span {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#t3 {
+	font-size: 23.5px;
+	color: #0072bc;
+	left: 66px;
+	top: 318px;
+}
+
+#pac {
+	position: absolute;
+	left: 643px;
+	top: 374px;
+}
+
+#imtg1 {
+	position: absolute;
+	left: 322px;
+	top: 400px;
+}
+
+#img2 {
+	position: absolute;
+	left: 308px;
+	top: 513px;
+}
+
+#orngstrip {
+	position: absolute;
+	left: 0;
+	top: 393px;
+}
+
+#t4 {
+	color: #ffffff;
+	font-size: 22.5px;
+	left: 69px;
+	top: 402px;
+}
+
+#t5 {
+	font-size: 18.66px;
+	color: #5a5a5a;
+	left: 66px;
+	top: 452px;
+	line-height: 30px;
+}
+
+#t5 span {
+	color: #0072bc;
+}
+
+#orngstrip2 {
+	position: absolute;
+	left: 0px;
+	top: 520px;
+}
+
+#t6 {
+	left: 69px;
+	top: 529px;
+	color: white;
+	font-size: 22.5px;
+}
+
+#t7 {
+	font-size: 18.5px;
+	color: #5a5a5a;
+	left: 65px;
+	top: 580px;
+	line-height: 30px;
+}
+
+#t7 span {
+	color: #0072bc;
+}

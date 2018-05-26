@@ -1,0 +1,211 @@
+/**************************************************/
+/* GSK Veeva Master Template - Core Functionality */
+/**************************************************/
+/* File version              1.5                  */
+/* Last modified             29/08/2017           */
+/* Last modified by          T.T.                 */
+/**************************************************/
+
+var com = com || {};
+com.gsk = com.gsk || {};
+com.gsk.mtconfig = {
+    "localisation": {
+        "references": "References1",
+        "footnotes": "Footnotes",
+        "menu": "Menu",
+        "custom-menu": "Custom Menu",
+        "zoomNote": "Double tap to zoom out"
+    },
+    "presentation": "Buspar_EG_2018_EG1.0_MAIN",
+    "homepage": "Buspar_EG_2018_EG1.0_001",
+    "menuPresentation": "Buspar_EG_2018_EG1.0_ADD",
+    "menu": "Buspar_EG_2018_EG1.0_MENU",
+    "embedMenu": false,
+    "customMenu": [],
+    "referencesPresentation": "Buspar_EG_2018_EG1.0_ADD",
+    "references": "Buspar_EG_2018_EG1.0_REFS",
+    "embedReferences": false,
+    "piPresentation": "Buspar_EG_2018_EG1.0_ADD",
+    "pi": "Buspar_EG_2018_EG1.0_PI",
+    "embedPi": false,
+    "importPi": false,
+    "objectionPresentation": "",
+    "objection": "",
+    "embedObjection": true,
+    "importObjection": true,
+    "embedGuides": false,
+    "portfolioPresentation": "",
+    "portfolio": "",
+    "veevaSwipe": "0",
+    "mtgskAnimations": "1",
+    "mtgskPortrait": "0",
+    "mtgskUS": true,
+    "dialogMaxWidth": 924,
+    "dialogMaxHeight": 668,
+    "enableQuickLinksOnDialog": true,
+    "enableSwipesOnDialog": false,
+    "referencesAll": [
+"Henning ER, Turk CL, Mennin DS, Fresco DM, Heimberg RG. Impairment and quality of life in individuals with<br> generalized anxiety disorder. <i> Depression and Anxiety</i> 2006; <b>0</b>: 1-8.",
+"The National Institute of Mental Health. Generalized Anxiety Disorder (GAD). Available at:<br> http://www.nimh.nih.gov/health/topics/generalized-anxiety-disorder-gad/index.shtml. Last accessed: 10/01/2017.",
+"Davidson JR. First-line pharmacotherapy approaches for generalized anxiety disorder.<i> The Journal of clinical psychiatry.</i> 2009; <b>70</b> (suppl 2): 25-31.",
+"Davidson JR, Feltner DE, Dugar A. Management of generalized anxiety disorder in primary care: identifying the<br> challenges and unmet needs.<i> Prim Care Companion J Clin Psychiatry.<i> 2010; <b>12</b> (2): e1-3.",
+"Sareen J, Cox BJ, Clara I, Asmundson GJ. The relationship between anxiety disorders and physical disorders in the U.S.<br> National Comorbidity Survey. <i>Depress Anxiety</i> 2005; <b>21</b> (4): 193-202.",
+"Haftgoli N, Favrat B, Verdon F, <i>et al</i>. Patients presenting with somatic complaints in general practice: depression, anxiety<br> and somatoform disorders are frequent and associated with psychosocial stressors. <i>BMC Fam Pract</> 2010; <b>11</b>: 67.",
+"Bener A, Ghuloum S, Abou-Saleh MT. Prevalence, symptom patterns and comorbidity of anxiety and depressive <br>disorders in primary care in Qatar. <i>Soc Psychiatry Psychiatr Epidemiol</i> 2012; <b>47</b> (3): 439-46.",
+"Lucki I. Serotonin receptor specificity in anxiety disorders. <i>J Clin Psychiatry</i> 1996; <b>57</b> (Suppl 6): 5-10.",
+"elle Chiaie R, Pancheri P, Casacchia M, Stratta P, Kotzalidis GD, Zibellini M. Assessment of the efficacy of buspirone in<br> patients affected by generalized anxiety disorder, shifting to buspirone from prior treatment with lorazepam: a<br> placebo-controlled, double-blind study. <i>Journal of clinical psychopharmacology.</i> 1995; <b>15</b> (1): 12-9.",
+"Taylor DP, Riblet LA, Stanton HC, Eison AS, Eison MS, Temple DL Jr. Dopamine and antianxiety activity. <i>Pharmacol<br> Biochem Behav</i> 1982; <b>17</b> (Suppl 1): 25-35.",
+"Fricchione G. Generalized Anxiety Disorder.<i> N Engl J Med</i> 2004; <b>351</b> (7): 675-82.",
+"Cohn JB, Wilcox CS. Low-sedation potential of buspirone compared with alprazolam and lorazepam in the treatment of<br> anxious patients: a double-blind study. <i>J Clin Psychiatry</i> 1986; <b>47</b> (8): 409-12.",
+"Sacchetti E, Zerbini O, Banfi F, Tansella M. Overlap of Buspirone with Lorazepam, Diazepam and Bromazepam in<br> Patients with Generalized Anxiety Disorder: Findings from a Controlled, Multicentre, Double-Blind Study. <i>HUMAN<br> PSYCHOPHARMACOLOGY</i> 1994; <b>9</b>: 409-422.",
+"Enkelmann R. Alprazolam versus buspirone in the treatment of outpatients with generalized anxiety disorder.<br> <i>Psychopharmacology.</> 1991; <b>105</b> (3) :428-32.",
+"Buspar prescribing information. 11 February 2013"
+    ],
+    "footnotesAll": [
+        "* footnote 1",
+        "† footnote 2"
+    ],
+    "pageFootnotesAll": [
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        [],
+        []
+    ],
+    "pageReferencesAll": [
+      [],
+      [1, 2],
+      [1],
+      [3, 4],
+      [5, 6, 7],
+      [8, 9],
+      [8, 10, 11, 12],
+      [13],
+      [13],
+      [14],
+      [13, 1],
+      [12],
+      [15],
+      [9, 10, 12, 13, 14],
+      []
+
+    ],
+    "pagesAll": [
+        "Buspar_EG_2018_EG1.0_001",
+        "Buspar_EG_2018_EG1.0_002",
+        "Buspar_EG_2018_EG1.0_003",
+        "Buspar_EG_2018_EG1.0_004",
+        "Buspar_EG_2018_EG1.0_005",
+        "Buspar_EG_2018_EG1.0_006",
+        "Buspar_EG_2018_EG1.0_007",
+        "Buspar_EG_2018_EG1.0_008",
+        "Buspar_EG_2018_EG1.0_009",
+        "Buspar_EG_2018_EG1.0_010",
+        "Buspar_EG_2018_EG1.0_011",
+        "Buspar_EG_2018_EG1.0_012",
+        "Buspar_EG_2018_EG1.0_013",
+        "Buspar_EG_2018_EG1.0_014",
+        "Buspar_EG_2018_EG1.0_015"
+    ],
+
+    "pagesTitles": [
+        "Buspar_EG_2018_EG1.0_001",
+        "Buspar_EG_2018_EG1.0_002",
+        "Buspar_EG_2018_EG1.0_003",
+        "Buspar_EG_2018_EG1.0_004",
+        "Buspar_EG_2018_EG1.0_005",
+        "Buspar_EG_2018_EG1.0_006",
+        "Buspar_EG_2018_EG1.0_007",
+        "Buspar_EG_2018_EG1.0_008",
+        "Buspar_EG_2018_EG1.0_009",
+        "Buspar_EG_2018_EG1.0_010",
+        "Buspar_EG_2018_EG1.0_011",
+        "Buspar_EG_2018_EG1.0_012",
+        "Buspar_EG_2018_EG1.0_013",
+        "Buspar_EG_2018_EG1.0_014",
+        "Buspar_EG_2018_EG1.0_015"
+    ],
+    "pagesDesc": [
+        "Home",
+        "GAD Patients",
+        "GAD Patients and life satisfaction",
+        "GAD Patients don't receive adequate treatment",
+        "GAD & somatic diseases",
+        "MOA",
+        "MOA",
+        "Buspirone efficacy Vs. diazepam",
+        "Buspirone efficacy Vs. bromazepam",
+        "Buspirone efficacy Vs. alprazolam",
+        "Efficacy at global golbal impression scale",
+        "Safety",
+        "Dosage",
+        "Why Buspar",
+        "PI"
+    ],
+    "pagesGuides": {
+
+    },
+    "addAll": [
+        "Buspar_EG_2018_EG1.0_003a",
+        "Buspar_EG_2018_EG1.0_008a",
+        "Buspar_EG_2018_EG1.0_009a",
+        "Buspar_EG_2018_EG1.0_010a",
+        "Buspar_EG_2018_EG1.0_010b",
+        "Buspar_EG_2018_EG1.0_011a",
+        "Buspar_EG_2018_EG1.0_012a",
+        "Buspar_EG_2018_EG1.0_MENU",
+        "Buspar_EG_2018_EG1.0_PI",
+        "Buspar_EG_2018_EG1.0_REFS"
+
+    ],
+    "addTitles": [
+        "GAD Patients and life satisfaction",
+        "Buspirone efficacy Vs. diazepam",
+        "Buspirone efficacy Vs. bromazepam",
+        "Buspirone efficacy Vs. alprazolam",
+        "Efficacy",
+        "Efficacy at global impression scale",
+        "Safety",
+        "Buspar_EG_2018_EG1.0_MENU",
+        "PI",
+        "References"
+    ],
+    "flows": {
+
+    },
+    "homeResetsFlows": false,
+    "subSlides": {
+
+    },
+    "pinchToZoomSlides": [
+        "",
+        "",
+        "",
+        "",
+        ""
+    ],
+    "maxZoom": 2,
+    "useEmail":true,
+    "vaultID":"https://vv-agency-redrock-uk.veevavault.com",
+    "templateID":"287",
+    "fragments": [
+
+    ],
+    "pagesEmail": {
+
+    },
+    "customFragmentSelector": false,
+    "customFragmentSelectorContainer": "#fragmentSelector #inner",
+    "portfolioPresentations": [],
+    "presentationsPerRow": 0
+};

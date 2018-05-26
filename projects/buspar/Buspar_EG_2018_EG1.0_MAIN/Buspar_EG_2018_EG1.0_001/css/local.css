@@ -1,0 +1,11 @@
+/* Local CSS */
+.text-hd{position:absolute;left:401px;top:10px;font-size:31px;color:#004ac2;text-align: center;    line-height: 42px;font-family: 'HelveticaLTStd-BlkCond';}
+.text-hd span{font-size: 55px;}
+.activeNav {
+    background-image: url(../../shared/media/icons/home-hg.png) !important;
+    opacity: 1 !important;
+}
+.footer-txt{font-family: 'HelveticaLTStd-Bold';font-size:14px;position: absolute;color: #fff;left:76px;top:670px;}
+.t001{position: absolute;    left: 936px;
+    top: 420px;-webkit-transform:rotate(-90deg);transform:rotate(-90deg);color: #4c4645;
+font-size:16px;font-family: 'HelveticaLTStd-Bold';}

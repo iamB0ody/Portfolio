@@ -1,0 +1,34 @@
+/* Local CSS */
+#content{
+	width: 975px;
+	height: 605px;
+	top: 92px;
+	left: 30px;
+	position: absolute;
+}
+/*.iscroll {
+	position: relative;
+	left:10px;
+	top:63px;
+	overflow: hidden;
+	width: 968px;
+	height:605px;
+}*/
+#inner{
+  width:900px; height:900px;
+}
+.topNav {left: 110px;top: 36px;z-index:20;}
+.topNav #mtgskClose{left:660px;}
+.mainContent h1 {position: absolute;color: #000;font-size: 22.5px;font-family: "HelveticaLTStd-Cond";left: 39px;top: 48px;}
+#referenceList {position: absolute;}
+#referenceList li {font-size: 16px;font-family: "HelveticaLTStd-Cond";color: #3a3a3a;list-style: decimal-leading-zero;margin-left: 33px !important;}
+#referenceList.unindexed {list-style: decimal-leading-zero;}
+#referenceList.unindexed li {margin-left: 33px !important;}
+.references, #footnotesList {margin: 0;}
+
+#references {
+    background-image: url(../../shared/media/icons/ref-hg.png) !important;
+    opacity: 1 !important;
+}
+
+#content div:nth-child(2) {display: none;}

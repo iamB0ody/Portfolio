@@ -1,0 +1,13 @@
+/* Local CSS */
+.hd-txt{position: absolute;left:73px;top:68px;z-index: 100;color: #fff;font-size:30px;font-family: 'HelveticaLTStd-Cond';}
+.box1{position: absolute;left:290px;top:154px;}
+.cont-1{position: absolute;left:343px;top:214px;z-index: 100;color: #5a5a5a;font-size:22px;font-family: 'HelveticaLTStd-Cond';
+text-align: center;}
+.cont-1 b{font-size:27px;color:#0873ba;}
+.cont-1 span{color:#f26011;}
+
+.box2{position: absolute;left:290px;top:422px;}
+.cont-2{position: absolute;left:307px;top:448px;z-index: 100;color: #5a5a5a;font-size:22px;font-family: 'HelveticaLTStd-Cond';
+text-align: center;}
+.cont-2 b{font-size:27px;color:#0873ba;}
+.cont-2 span{color:#f26011;}

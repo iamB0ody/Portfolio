@@ -1,0 +1,14 @@
+/* Local CSS */
+.woman{position: absolute;left:0px;top:0px;}
+.cont-1{position: absolute;left:599px;top:189px;color:#f26011;font-size: 47px;font-family: 'HelveticaLTStd-Cond';}
+.cont-1 span{font-size: 79px;}
+.cont-2{position: absolute;left:596px;top:359px;color:#0873ba;font-size: 24px;font-family: 'HelveticaLTStd-Cond';}
+.cont-2 span{color:#323030;font-size:17.5px;}
+.cont-2 sup{font-size:12px;}
+.cont-3{position: absolute;left:596px;top:428px;color:#0873ba;font-size: 24px;font-family: 'HelveticaLTStd-Cond';}
+
+.lista{position: absolute;left:596px;top:462px;font-size:17.5px;color: #323030;font-family: 'HelveticaLTStd-Cond';}
+.lista li{list-style: none;}
+.lista li:before{content: " ";background-image: url('../media/images/point.png'); width:13px;height: 12px;position: absolute;left:-20px;
+background-repeat: no-repeat;margin-top:7px;
+ }

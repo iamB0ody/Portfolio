@@ -1,0 +1,102 @@
+/* Local CSS */
+
+#mtgskClose {
+    background: url('../media/images/negzoom.png') !important;
+    width: 43px;
+    height: 43px;
+    padding: 0 !important;
+}
+
+.topNav {
+    left: 779px;
+    top: 143px;
+    z-index: 9999999;
+}
+
+#grph {
+    position: absolute;
+    left: 169px;
+    top: 125px;
+}
+
+#lines {
+    position: absolute;
+    left: 493px;
+    top: 401px;
+}
+
+p {
+    font-family: "HelveticaLTStd-Cond";
+    position: absolute;
+}
+
+li {
+    font-family: "HelveticaLTStd-Cond";
+}
+
+#t1 {
+    font-size: 21.5px;
+    color: #ffffff;
+    left: 279px;
+    top: 131px;
+    text-align: center;
+    line-height: 21px;
+}
+
+#t1 span {
+    font-family: 'HelveticaLTStd-BlkCond';
+}
+
+#t2 {
+    font-size: 19.02px;
+    color: #5d5d5d;
+    left: 736px;
+    top: 232px;
+    line-height: 21px;
+}
+
+#t3 {
+    font-size: 21.35px;
+    color: #606060;
+    left: 135px;
+    top: 384px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+#t4 {
+    font-size: 21.35px;
+    color: #5d5d5d;
+    left: 484px;
+    top: 610px;
+}
+
+#l4 {
+	position: absolute;
+	left: 287px;
+	top: 297px;
+	background-image: url('../media/images/l4.png');
+	max-width: 517px;
+    height: 201px;
+    background-repeat: no-repeat;
+}
+
+#l5 {
+	position: absolute;
+	left: 287px;
+	top: 297px;
+	background-image: url('../media/images/l5.png');
+	max-width: 517px;
+	height: 201px;
+    background-repeat: no-repeat;
+}
+
+#l6 {
+	position: absolute;
+	left: 287px;
+	top: 297px;
+	background-image: url('../media/images/l6.png');
+	max-width: 517px;
+	height: 201px;
+    background-repeat: no-repeat;
+}

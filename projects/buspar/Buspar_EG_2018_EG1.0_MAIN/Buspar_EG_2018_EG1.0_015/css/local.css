@@ -1,0 +1,86 @@
+/* Local CSS */
+
+#head {
+	color: white;
+	font-size: 30px;
+	position: absolute;
+	font-family: "HelveticaLTStd-Cond";
+	left: 77px;
+	top: 70px;
+}
+
+#head span {
+	font-family: "HelveticaLTStd-BlkCond";
+}
+
+#listtext {
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 25px;
+}
+
+#listtext li {
+	list-style: none;
+	font-family: "HelveticaLTStd-Cond";
+	font-size: 20px;
+	padding-bottom: 10px;
+	color: #3a3a3a;
+}
+
+#listtext li:not(:last-child)::before {
+	content: " ";
+	background-image: url(../media/images/arr.png);
+	width: 19px;
+	height: 17px;
+	background-repeat: no-repeat;
+	padding: 0 39px 0 8px;
+	margin: 5px -23px;
+	position: absolute;
+}
+
+#listtext li:last-child {
+	padding: 50px 0;
+}
+
+#content {
+	height: 492px;
+	top: 180px;
+	left: 57px;
+	position: absolute;
+	width: 940px;
+}
+
+.iscroll {
+	position: relative;
+	left: 70px;
+	top: 148px;
+	overflow: hidden;
+	height: 2288px;
+}
+
+#inner {
+	width: 858px;
+	height: 1000px;
+}
+
+#rightText {
+	padding: 0;
+	margin: 0;
+	transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	position: absolute;
+	right: -112px;
+	top: 399px;
+}
+
+#rightText li {
+	display: inline-block;
+	padding-right: 16px;
+	font-size: 12px;
+	color: #494949;
+}
+
+#logos {
+	position: absolute;
+}

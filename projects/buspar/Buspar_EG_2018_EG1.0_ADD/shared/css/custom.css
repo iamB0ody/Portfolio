@@ -1,0 +1,147 @@
+/**************************************************/
+/* GSK Veeva Master Template - Custom CSS         */
+/**************************************************/
+/* File version              1.5                  */
+/* Last modified             29/08/2017           */
+/* Last modified by          T.T.                 */
+/**************************************************/
+
+.topNav {
+    top: 50px;
+    left: 80px;
+    width: 864px;
+    position: absolute;
+    border: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform-style: preserve-3d;
+    font: normal 16px 'HelveticaLight';
+}
+
+.quickLinkDialogReferences {
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.dialog .topNav {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    background-color: #fff;
+}
+
+.dialog .topNav #referencesPage {
+    margin-left: 0px;
+}
+
+.dialog .topNav #referencesAll {
+    margin-left: 60px;
+}
+
+.embeddedReferences {
+    margin-top: 50px;
+}
+
+.topNav #mtgskClose {
+    position: absolute;
+    background: url('../../shared/media/icons/icon_close.png');
+    background-repeat: no-repeat;
+    background-size: 44px 44px;
+    padding: 30px;
+}
+
+.topNav #referencesPage {
+    position: absolute;
+    background: url('../../shared/media/icons/icon_referencespage.png');
+    background-repeat: no-repeat;
+    background-size: 44px 44px;
+    padding: 30px;
+    margin-left: 60px;
+}
+
+.topNav #referencesAll {
+    position: absolute;
+    background: url('../../shared/media/icons/icon_referencesall.png');
+    background-repeat: no-repeat;
+    background-size: 44px 44px;
+    padding: 30px;
+    margin-left: 120px;
+}
+
+#quickLinkDialog .iScrollVerticalScrollbar {
+    margin-top: 50px;
+}
+
+.zincCode {
+    bottom: 85px;
+    left: 25px;
+    position: absolute;
+    border: 0;
+    font: normal 12px 'HelveticaLight';
+    color: #888888;
+    z-index: 10;
+}
+.Preperation {
+	bottom: 65px;
+	left: 25px;
+	position: absolute;
+	border: 0;
+	font: normal 12px 'HelveticaLight';
+	color: #888;
+	z-index: 10;
+}
+.references,
+#footnotesList {
+    margin-top:40px;
+}
+
+#referenceList li {
+    font-size: 16px;
+    margin-top:10px;
+    margin-left: 22px;
+}
+
+#footnotesList li {
+    font-size: 16px;
+    margin-top:10px;
+    list-style-type: none;
+}
+
+#referenceList li em,
+#footnotesList li em {
+    font-style:italic;
+}
+
+.dialogBody .references,
+.dialogBody #footnotesList {
+    margin-top: 0px;
+}
+
+/* Allow custom reference numbering */
+#referenceList li.hasRefIndex {
+    position: relative;
+    list-style-type: none;
+}
+#referenceList li span.refIndex {
+    position:absolute;
+    top: 0px;
+    left: -21px;
+}
+
+/* Portfolio Page Grid */
+.navBottom div.portfolioNav {
+    display: inline-block;
+}
+.gskRow {
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+.gskCol {
+    position: relative;
+    display: inline-block;
+}

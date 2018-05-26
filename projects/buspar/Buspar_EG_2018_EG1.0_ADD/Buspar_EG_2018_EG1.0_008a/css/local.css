@@ -1,0 +1,145 @@
+/* Local CSS */
+
+#mtgskClose {
+    background: url('../media/images/negzoom.png') !important;
+    width: 43px;
+    height: 43px;
+    padding: 0 !important;
+}
+
+.topNav {
+    left: 916px;
+    top: 126px;
+    z-index: 9999999;
+}
+
+#grph {
+    position: absolute;
+    left: 31px;
+    top: 115px;
+}
+
+p {
+    font-family: "HelveticaLTStd-Cond";
+    position: absolute;
+}
+
+li {
+    font-family: "HelveticaLTStd-Cond";
+}
+
+#t1,
+#t2 {
+    font-size: 21.49px;
+    color: #ffffff;
+    top: 138px;
+}
+
+#t1 {
+    left: 154px;
+}
+
+#t2 {
+    left: 633px;
+}
+
+#t3 {
+    font-size: 15.35px;
+    color: #5a5a5a;
+    left: 433px;
+    top: 208px;
+}
+
+#t4 {
+    font-size: 18.42px;
+    color: #606060;
+    left: -25px;
+    top: 375px;
+    transform: rotate(-90deg);
+    -webkit-transform:rotate(-90deg)
+}
+
+#bars {
+    position: absolute;
+    left: 199px;
+    top: 222px;
+}
+
+#t5 {
+    position: absolute;
+    left: 217px;
+    top: 560px;
+}
+
+#t5 li {
+    font-size: 16px;
+    color: #5d5d5d;
+    list-style: none;
+    display: inline-block;
+    padding-right: 98px;
+}
+
+#t6 {
+    font-size: 12px;
+    color: #000000;
+    left: 858px;
+    top: 626px;
+}
+
+
+.mask {
+	position: absolute;
+	width: 1024px;
+	height: 555px;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+#b1, #b2, #b3, #b4, #b5, #b6, #b7, #b8, #b9, #b10 {
+	position: absolute;
+	opacity: 0;
+	bottom: 0;
+}
+#b1 {
+	left: 199px;
+}
+
+#b2 {
+	left: 242px;
+}
+
+#b3 {
+	left: 352px;
+}
+
+#b4 {
+	left: 395px;
+}
+
+#b5 {
+	left: 503px;
+}
+
+#b6 {
+	left: 546px;
+}
+
+#b7 {
+	left: 655px;
+}
+
+#b8 {
+	left: 698px;
+}
+
+#b9 {
+	left: 807px;
+}
+
+#b10 {
+	left: 850px;
+}
+
+.g-on1{position: absolute;left:826px;top:217px;font-size:16px;color:#5a5a5a;font-family:'HelveticaLTStd-Cond'; }
+.g-on2{position: absolute;left:826px;top:240px;font-size:16px;color:#5a5a5a;font-family:'HelveticaLTStd-Cond'; }

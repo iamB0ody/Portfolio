@@ -1,0 +1,58 @@
+/* Local CSS */
+
+#mtgskClose {
+    background: url('../media/images/negzoom.png') !important;
+    width: 43px;
+    height: 43px;
+    padding: 0 !important;
+}
+
+.topNav {
+    left: 916px;
+    top: 126px;
+    z-index: 9999999;
+}
+
+#grph {
+    position: absolute;
+    left: 31px;
+    top: 115px;
+}
+
+p {
+    font-family: "HelveticaLTStd-Cond";
+    position: absolute;
+}
+
+li {
+    font-family: "HelveticaLTStd-Cond";
+}
+
+.t1{position: absolute;left:316px;top:139px;font-size:25px;font-family:'HelveticaLTStd-Cond';color:#fff;z-index:10; }
+.t2{position: absolute;left:634px;top:139px;font-size:25px;font-family:'HelveticaLTStd-Cond';color:#fff;z-index:10; }
+
+.p1{position: absolute;left:877px;top:199px;font-size:16px;font-family:'MyriadPro-Regular';color:#0873ba;z-index:10; }
+.p2{position: absolute;left:872px;top:220px;font-size:16px;font-family:'MyriadPro-Regular';color:#0873ba;z-index:10; }
+
+.lista{position: absolute;left:196px;top:558px;text-decoration:none;list-style: none;color:#929597;
+	font-size: 20px;font-family:'HelveticaLTStd-Cond';}
+.lista li{float: left;padding-right: 50px;}
+
+
+/* animation */
+#mask1{position: absolute;left:204px;top:198px;width:696px;height:218px;overflow:hidden;}
+#b1{position: absolute;left:0px;bottom:0px;opacity:0;}
+#b2{position: absolute;left:42px;bottom:0px;opacity:0;}
+#b4{position: absolute;left:166px;bottom:0px;opacity:0;}
+#b5{position: absolute;left:244px;bottom:0px;opacity:0;}
+#b6{position: absolute;left:287px;bottom:0px;opacity:0;}
+#b8{position: absolute;left:410px;bottom:0px;opacity:0;}
+#b9{position: absolute;left:488px;bottom:0px;opacity:0;}
+#b10{position: absolute;left:532px;bottom:0px;opacity:0;}
+#b11{position: absolute;left:607px;bottom:0px;opacity:0;}
+#b12{position: absolute;right:0px;bottom:0px;opacity:0;}
+
+#mask2{position: absolute;left:328px;top:415px;width:288px;height:125px;overflow:hidden;}
+#b3{position: absolute;left:0px;top:0px;opacity:0;}
+#b7{position: absolute;right:0px;top:0px;opacity:0;}
+/* end animation bars */

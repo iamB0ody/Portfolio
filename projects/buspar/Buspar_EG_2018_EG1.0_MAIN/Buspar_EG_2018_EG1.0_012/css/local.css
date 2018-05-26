@@ -1,0 +1,170 @@
+/* Local CSS */
+
+#hdstrip {
+    position: absolute;
+    left: 0;
+    top: 69px;
+}
+
+#head {
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    font-family: "HelveticaLTStd-Cond";
+    left: 73px;
+    top: 95px;
+}
+
+#head span {
+    font-family: "HelveticaLTStd-BlkCond";
+}
+
+p {
+    position: absolute;
+    font-family: "HelveticaLTStd-Cond";
+}
+
+#t1 {
+    font-size: 13px;
+    color: #ffffff;
+    left: 766px;
+    top: 155px;
+}
+
+#t2 {
+    font-size: 25px;
+    color: #f26011;
+    left: 73px;
+    top: 39px;
+}
+
+#woman {
+    position: absolute;
+    left: 35px;
+    top: 190px;
+}
+
+#grph {
+    position: absolute;
+    left: 399px;
+    top: 198px;
+}
+
+#t3 {
+    color: #ffffff;
+    font-size: 15px;
+    left: 531px;
+    top: 214px;
+}
+
+#t4 {
+    color: #ffffff;
+    font-size: 15px;
+    left: 762px;
+    top: 214px;
+}
+
+#plszoom {
+    position: absolute;
+    left: 909px;
+    top: 202px;
+}
+
+#t5 {
+    font-size: 12px;
+    color: #0873ba;
+    left: 606px;
+    top: 299px;
+}
+
+#bars {
+    position: absolute;
+    left: 606px;
+    top: 262px;
+}
+
+#t6 {
+    font-size: 12px;
+    color: #5d5d5d;
+    left: 590px;
+    top: 547px;
+}
+
+#t7 {
+    font-size: 12px;
+    color: #5d5d5d;
+    left: 770px;
+    top: 547px;
+}
+
+#t8 {
+    font-size: 12px;
+    color: #5a5a5a;
+    left: 867px;
+    top: 551px;
+}
+
+#t9 {
+    font-size: 15px;
+    color: #5a5a5a;
+    left: 399px;
+    top: 585px;
+    width: 588px;
+}
+
+#t9 sub {
+    font-size: 12px;
+    left: 490px;
+    top: 38px;
+    position: absolute;
+}
+
+#t10 {
+    font-size: 14.01px;
+    color: #606060;
+    left: 320px;
+    top: 390px;
+    text-align: center;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+#mask {
+    position: absolute;
+    width: 1024px;
+    height: 278px;
+    left: 0;
+    top: 262px;
+    overflow: hidden;
+}
+
+#b1 {
+    left: 606px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+#b2 {
+    left: 771px;
+    position: absolute;
+    bottom: 0;
+    opacity: 0;
+}
+
+#scalenums {
+    padding: 0;
+    margin: 0;
+    z-index: 99999999;
+    position: absolute;
+    left: 497px;
+    top: 262px;
+    line-height: 37.9px;
+}
+
+#scalenums li {
+    display: block;
+    color: #177fb0;
+    font-weight: bold;
+    text-align: right;
+}

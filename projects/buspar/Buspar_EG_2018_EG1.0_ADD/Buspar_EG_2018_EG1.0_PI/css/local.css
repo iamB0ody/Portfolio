@@ -1,0 +1,60 @@
+/* Local CSS */
+
+/* PI iScroll styles */
+
+#content {
+	height: 492px;
+	top: 148px;
+	left: 74px;
+	position: absolute;
+	width: 940px;
+}
+
+#content p {
+	font-size: 16px;
+	color: #3a3a3a;
+}
+
+.iscroll {
+	position: relative;
+	left: 70px;
+	top: 148px;
+	overflow: hidden;
+	height: 2288px;
+}
+
+#inner {
+	width: 888px;
+	height: 7000px;
+}
+
+p b {
+	font-size: 16px;
+	font-family: 'HelveticaLTStd-Bold';
+	color: #3a3a3a;
+}
+
+span {
+	color: #de6702;
+}
+
+#pi {
+	background-image: url(../../shared/media/icons/pi-hg.png) !important;
+	opacity: 1 !important;
+}
+
+.hd-txt {
+	position: absolute;
+	left: 73px;
+	top: 63px;
+	z-index: 100;
+	color: #fff;
+	font-size: 30px;
+	font-family: 'HelveticaLTStd-Cond';
+}
+
+.topNav {
+	top: 50px;
+	left: 870px;
+	z-index: 999;
+}

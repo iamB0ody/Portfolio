@@ -1,0 +1,9 @@
+/* Local CSS */
+.hd-txt{position: absolute;left:73px;top:49px;z-index: 100;color: #fff;font-size:30px;font-family: 'HelveticaLTStd-Cond';}
+.hd-txt sub{font-size:16px;}
+.cont-txt1{position: absolute;color:#f26011;font-family: 'HelveticaLTStd-Cond';font-size:27.5px;left:70px;top:192px;z-index:100;}
+.cont-txt2{position: absolute;left:107px;top:254px;font-size:26px;color: #3a3a3a;font-family: 'HelveticaLTStd-Cond';line-height: 42px;}
+.cont-txt2 li{list-style: none;}
+.cont-txt2 li:before{content: " ";background-image: url('../media/images/point.png'); width:13px;height: 12px;position: absolute;left:-20px;
+background-repeat: no-repeat;margin-top:15px;
+ }

@@ -1,0 +1,28 @@
+/* Local CSS */
+.hd-txt{position: absolute;left:73px;top:51px;z-index: 100;color: #fff;font-size:30px;font-family: 'HelveticaLTStd-Cond';}
+.hd-txt sup{font-size: 16px;}
+.cont-1{position: absolute;left:71px;top:152px;font-family: 'HelveticaLTStd-Cond';font-size:17px;color:#5a5a5a;}
+.cont-1 span{font-size:25px;color:#0873ba;}
+.cont-1 b{font-size:20px;}
+
+.lista1{position: absolute;left:91px;top:232px;font-size:18px;color: #3e88c5;font-family: 'HelveticaLTStd-Cond';line-height: 27px;}
+.lista1 span{font-family: 'HelveticaLTStd-Bold';}
+.lista1 li{list-style: none;}
+.lista1 li:before{content: " ";background-image: url('../media/images/point.png'); width:13px;height: 12px;position: absolute;left:-20px;
+	background-repeat: no-repeat;margin-top:15px;
+	 }
+
+
+.lista2{position: absolute;left:669px;top:232px;font-size:18px;color: #3e88c5;font-family: 'HelveticaLTStd-Cond';line-height: 27px;}
+.lista2 span{font-family: 'HelveticaLTStd-Bold';}
+.lista2 li{list-style: none;}
+.lista2 li:before{content: " ";background-image: url('../media/images/point.png'); width:13px;height: 12px;position: absolute;left:-20px;
+background-repeat: no-repeat;margin-top:15px;
+}
+
+.grey-strp{position: absolute;left:0px;top:343px;}
+.cont-2{position:absolute;left:77px;top: 331px;font-size:101px;font-family: 'HelveticaLTStd-cond';color:#f26011;}
+.cont-3{position:absolute;left:65px;top: 474px;font-size:20px;font-family: 'HelveticaLTStd-cond';color:#5a5a5a;line-height:37px;}
+.cont-3 span{color:#0873ba;}
+.cont-4{position:absolute;left:84px;top: 561px;font-size:24px;font-family: 'HelveticaLTStd-cond';color:#0873ba;text-align: center;}
+.cont-4 sub{font-size:14px;}

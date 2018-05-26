@@ -1,0 +1,169 @@
+/* Local CSS */
+
+
+
+#hdstrip {
+	position: absolute;
+	left: 0;
+	top: 69px;
+}
+
+#head {
+	color: white;
+	font-size: 25px;
+	position: absolute;
+	font-family: "HelveticaLTStd-Cond";
+	left: 74px;
+	top: 90px;
+}
+
+#head span {
+	font-family: "HelveticaLTStd-BlkCond";
+}
+
+p {
+	position: absolute;
+	font-family: "HelveticaLTStd-Cond";
+}
+
+#t1 {
+	font-size: 13px;
+	color: #ffffff;
+	left: 766px;
+	top: 165px;
+}
+
+#t2 {
+	font-size: 25px;
+	color: #f26011;
+	left: 73px;
+	top: 39px;
+}
+
+#man {
+	position: absolute;
+	left: 0px;
+	top: 210px;
+}
+
+#grph {
+	position: absolute;
+	left: 412px;
+	top: 204px;
+}
+
+#t3 {
+	color: #ffffff;
+	font-size: 15px;
+	left: 531px;
+	top: 214px;
+}
+
+#t4 {
+	color: #ffffff;
+	font-size: 15px;
+	left: 762px;
+	top: 214px;
+}
+
+#plszoom {
+	position: absolute;
+	left: 911px;
+	top: 207px;
+	z-index: 100;
+}
+
+#t5 {
+	font-size: 12px;
+	color: #0873ba;
+	left: 606px;
+	top: 299px;
+}
+
+#bars {
+	position: absolute;
+	left: 616px;
+	top: 266px;
+}
+
+#t6 {
+	font-size: 12px;
+	color: #5d5d5d;
+	left: 590px;
+	top: 547px;
+}
+
+#t7 {
+	font-size: 12px;
+	color: #5d5d5d;
+	left: 770px;
+	top: 547px;
+}
+
+#t8 {
+	font-size: 12px;
+	color: #5a5a5a;
+	left: 852px;
+	top: 551px;
+}
+
+#t9 {
+	font-size: 15px;
+	color: #5a5a5a;
+	left: 399px;
+	top: 585px;
+	width: 595px;
+	line-height: 16px;
+}
+
+#t9 sub {
+	font-size: 12px;
+}
+
+#t10 {
+	font-size: 16px;
+	color: #606060;
+	left: 341px;
+	top: 390px;
+	text-align: center;
+	transform: rotate(-90deg);
+-webkit-transform:rotate(-90deg);
+}
+
+#t11 {
+	font-size: 15px;
+	color: #606060;
+	left: 399px;
+	top: 659px;
+	line-height: 16px;
+}
+
+#t12 {
+	font-size: 13.8px;
+	color: #5a5a5a;
+	left: 758px;
+	top: 264px;
+}
+
+#mask {
+	position: absolute;
+	width: 1024px;
+	height: 541px;
+	left: 0;
+	top: 0;
+	overflow: hidden;
+}
+
+#b1 {
+	position: absolute;
+	left: 616px;
+	bottom: 0;
+	opacity: 0;
+}
+
+#b2 {
+	position: absolute;
+	left: 779px;
+	bottom: 0;
+	opacity: 0;
+}

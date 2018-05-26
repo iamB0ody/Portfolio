@@ -1,0 +1,71 @@
+/* Local CSS */
+
+#mtgskClose {
+    background: url('../media/images/negzoom.png') !important;
+    width: 43px;
+    height: 43px;
+    padding: 0 !important;
+}
+
+
+.topNav {
+    left: 866px;
+    top: 126px;
+    z-index: 9999999;
+}
+
+#grph {
+    position: absolute;
+    left: 122px;
+    top: 110px;
+}
+
+p {
+    font-family: "HelveticaLTStd-Cond";
+    position: absolute;
+}
+
+li {
+    font-family: "HelveticaLTStd-Cond";
+}
+
+.t1{position: absolute;left:309px;top:134px;font-size:20px;font-family:'HelveticaLTStd-Cond';color:#fff;z-index:10; }
+.t2{position: absolute;left:640px;top:134px;font-size:20px;font-family:'HelveticaLTStd-Cond';color:#fff;z-index:10; }
+
+.t3{ position: absolute;
+    left: 384px;
+    top: 609px;
+    font-size: 20px;
+    font-family: 'MyriadPro-Regular';
+    color: #606060;
+    z-index: 10; }
+.t4{position: absolute;left:642px;top:609px;font-size:20px;font-family:'MyriadPro-Regular';color:#606060;z-index:10; }
+
+.t5{    position: absolute;
+    left: 789px;
+    top: 615px;
+    font-size: 12px;
+    font-family: 'MyriadPro-Regular';
+    color: #606060;
+    z-index: 10; }
+.t6{position: absolute;
+    left: 2px;
+    top: 380px;
+    font-size: 20px;
+    font-family: 'MyriadPro-Regular';
+    color: #606060;
+    z-index: 10;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    text-align: center;
+}
+
+
+
+
+/* animation */
+#mask1{position: absolute;left:416px;top:201px;width:297px;height:399px;overflow:hidden;}
+#b1{position: absolute;left:0px;bottom:0px;opacity:0;}
+#b2{position: absolute;right:0px;bottom:0px;opacity:0;}
+
+/* end animation bars */

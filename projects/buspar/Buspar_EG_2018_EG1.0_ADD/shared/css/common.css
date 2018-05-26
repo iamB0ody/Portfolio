@@ -1,0 +1,40 @@
+/* overwrite */
+.brandLogo{
+	width: 184px !important;
+	height: 120px !important;
+	background: url(../media/images/footerlogo.png);
+	background-repeat: no-repeat;
+	background-size: 184px 120px !important;
+}
+.footer{
+	bottom: 0px !important;}
+
+#home {
+    background: url(../media/icons/icon_home.png);
+    background-repeat: no-repeat;background-size:45px 44px;}
+#menu {
+    background: url(../media/icons/icon_menu.png);
+    background-repeat: no-repeat;background-size: 45px 44px;}
+#pi {
+    background: url(../media/icons/icon_pi.png);
+		background-repeat: no-repeat;background-size: 45px 44px;}
+#references {
+    background: url(../media/icons/icon_ref.png);
+    background-repeat: no-repeat;background-size: 45px 44px;}
+.navBottom div{display: block;float: left;bottom:18px;position: relative;width: 45px;height:45px;}
+.mainContent {width: 1024px;height: 768px;left: 0px;top: 0px;position: absolute;}
+
+
+
+/*End-icons */
+
+/* fonts */
+@font-face {font-family:'HelveticaLTStd-Blk'; src:url(../media/fonts/HelveticaLTStd-Blk.otf);}
+@font-face {font-family:'HelveticaLTStd-BlkCond'; src:url(../media/fonts/HelveticaLTStd-BlkCond.otf);}
+@font-face {font-family:'HelveticaLTStd-Bold'; src:url(../media/fonts/HelveticaLTStd-Bold.otf);}
+@font-face {font-family:'HelveticaLTStd-Cond'; src:url(../media/fonts/HelveticaLTStd-Cond.otf);}
+@font-face {font-family:'MyriadPro-Regular'; src:url(../media/fonts/MyriadPro-Regular.otf);}
+
+/* end fonts */
+
+.gbl-strp{position: absolute;left: 0px;top:43px;}

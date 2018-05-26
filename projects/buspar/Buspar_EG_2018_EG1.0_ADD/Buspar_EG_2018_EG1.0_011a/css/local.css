@@ -1,0 +1,97 @@
+/* Local CSS */
+
+#mtgskClose {
+    background: url('../media/images/negzoom.png') !important;
+    width: 43px;
+    height: 43px;
+    padding: 0 !important;
+}
+
+.topNav {
+    left: 840px;
+    top: 119px;
+    z-index: 9999999;
+}
+
+#grph {
+    position: absolute;
+    left: 122px;
+    top: 106px;
+}
+
+#bars {
+    position: absolute;
+    left: 410px;
+    top: 196px;
+}
+
+p {
+    font-family: "HelveticaLTStd-Cond";
+    position: absolute;
+}
+
+li {
+    font-family: "HelveticaLTStd-Cond";
+}
+
+#t1 {
+    font-size: 20.14px;
+    color: #5a5a5a;
+    left: 617px;
+    top: 194px;
+}
+
+#t2 {
+    font-size: 20.14px;
+    color: #606060;
+    left: 43px;
+    top: 384px;
+    text-align: center;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+}
+
+#t3,
+#t4 {
+    font-size: 16.01px;
+    color: #5d5d5d;
+    top: 605px;
+}
+
+#t3 {
+    left: 387px;
+}
+
+#t4 {
+    left: 642px;
+}
+
+#t5 {
+    font-size: 14.5px;
+    color: #5a5a5a;
+    left: 785px;
+    top: 613px;
+}
+
+#mask {
+    position: absolute;
+    width: 1024px;
+    height: 598px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+}
+
+#b1 {
+    position: absolute;
+    left: 410px;
+    bottom: 0;
+    opacity: 0;
+}
+
+#b2 {
+    position: absolute;
+    left: 648px;
+    bottom: 0;
+    opacity: 0;
+}
