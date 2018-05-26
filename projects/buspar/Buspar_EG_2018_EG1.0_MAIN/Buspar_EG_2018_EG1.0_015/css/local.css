@@ -83,4 +83,18 @@
 
 #logos {
 	position: absolute;
+	left: 82px;
+	top: 800px;
+}
+
+#tunderlogo, #tunderlogo2 {
+	position: absolute;
+	left: 82px;
+	top: 870px;
+	font-family: "HelveticaLTStd-Cond";
+	font-size: 12px;
+}
+
+#tunderlogo2 {
+	left: 376px;
 }
