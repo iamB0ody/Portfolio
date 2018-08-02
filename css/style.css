@@ -303,6 +303,7 @@ p {
   /*margin-bottom: 25px;*/
   transition: 0.5s ease-in-out;
   overflow: hidden;
+  min-height: 342px;
 }
 
 .item img.topimgitem {
