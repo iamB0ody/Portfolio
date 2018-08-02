@@ -1,0 +1,19 @@
+page-home {
+    .weatherDegree {
+        text-align: center;
+    }
+    .weatherDegree p {
+        display: inline-block;
+        font-size: 100%;
+        padding: 16px;
+        color: #1170d6;
+    }
+    .weatherFor {
+        text-align: center;
+        font-size: 100%;
+        color: #1170d6;
+    }
+    p {
+        white-space: pre-line;
+    }
+}

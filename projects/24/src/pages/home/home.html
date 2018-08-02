@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Check Your Weather
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <ion-list>
+    <ion-item>
+      <ion-label>Select Country</ion-label>
+      <ion-select [(ngModel)]="theCountry" interface="action-sheet" (ionChange)="getWeather(theCountry)">
+        <ion-option value="">My Location</ion-option>
+        <ion-option value="{{country.name}}" *ngFor="let country of list">{{country.name}}</ion-option>
+      </ion-select>
+    </ion-item>
+  </ion-list>
+
+  <div *ngIf="theWeather && theWeather != 'err'">
+    <ion-item>
+      <p class="weatherFor">The Weather for {{theWeather?.name}}</p>
+    </ion-item>
+    <ion-item class="weatherDegree">
+      <img src="{{ 'http://openweathermap.org/img/w/' + theWeather?.weather[0].icon + '.png' }}">
+      <p>{{ theWeather?.weather[0].description }} - {{ theWeather?.main.temp - 273.15 | number:'1.0-0' }} °C</p>
+    </ion-item>
+  </div>
+  
+  <div *ngIf="theWeather == 'err'">
+    <ion-item>
+      <p class="weatherFor">Oops, ther's not weather result for this country</p>
+    </ion-item>
+  </div>
+
+
+
+</ion-content>
