@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "Radio Skol Sertanejo",
+        "desc": "Radio Skol Sertanejo is mainly a radio that is based on country music. The radio plays Sertanejo pop music mostly and this is a type of music of their own culture. With Sertanejo listeners can pass their time with these kinds of beautiful music by filling their heart with joy.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2015/04/Radio-Skol-Sertanejo.jpg",
+        "stream": "http://comet.shoutca.st:8308/perseguida",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": true
+    },
+    {
+        "id": 2,
+        "name": "MGT Radio Love Hits",
+        "desc": "MGT Radio Love Hits is a popular radio station of Brazil, For some the radio is known as the radio for misc musical programs too. But whatever the name is MGT Radio Love Hits is well popular to all of its listeners for their beautiful presentation of programs and for their chilling playlists that contains some of the very hottest songs.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2014/10/MGT-Love-Hits-Radio.jpg",
+        "stream": "http://cast.mgtradio.net/radio/8010/radio.aac",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": true
+    },
+    {
+        "id": 3,
+        "name": "Radio Sound POP",
+        "desc": "Radio Sound POP is a one of the most popular online radio station on Brazil. Radio Sound POP broadcast 24hours various kind of Rock, Pop, Dance music etc. Radio Sound POP live broadcasting from Brazil. Radio Sound POP was founded in 12, January, 2010.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2012/04/radio-sound-pop.jpg",
+        "stream": "http://45.43.208.50:19342/Principal",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": true
+    },
+    {
+        "id": 4,
+        "name": "98.9 Positiva FM",
+        "desc": "Positive FM is 100% hinterland, updated and innovative. Today there are 140,000 watts, the greatest power in the Midwest region of the country. The radio started in 2005 and was operated at a frequency of 91.5 FM with 3 thousand watts of power. Months later, he came to occupy the 91.3 FM and in 2007 entered into 98.9 FM definitely. The radio is Neropolis, however, the main studio works in Goiania, Goias state capital.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2016/01/98.9-Positiva-FM.jpg",
+        "stream": "http://str01.streaming.mob.radio.br:8006/web.aac",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": true
+    },
+    {
+        "id": 5,
+        "name": "Radio da web",
+        "desc": "You are Listening one of the popular Brazilian online radio station Radio da web. Radio da web broadcasting 24 hours various kind of latest variety kind of music genres. Radio da web live broadcasting from Brazil.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2014/03/Radio-da-web.jpg",
+        "stream": "http://radio1.logicahost.com.br:8634/;",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": true
+    },
+    {
+        "id": 6,
+        "name": "103 FM Joinville",
+        "desc": "Radio 103 FM Joinville completed in April 2014 35 years of radio history. One of the main radio stations of Santa Catarina to 103 FM has its history widespread in the city. Throughout its history passed through here greats of communication. Today reformulated and with a young team to 103 FM Joinville back in full force to seek market and apply a more participatory programming. In the popular segment, 103 FM Joinville is an unmistakable mark on the dial of any radio.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2015/04/103-FM-Joinville.jpg",
+        "stream": "http://65.182.104.113:30230/;",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 7,
+        "name": "104.1 Top FM",
+        "desc": "Top FM is responsible for the best events and promotions, offering its listeners exclusive shows, dinners with artists, visits to the dressing rooms among many other attractions. In São Paulo Top FM is in the 104.1 MHz frequency.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2017/02/104.1-Top-FM.jpg",
+        "stream": "http://45.43.200.114:14006/stream/1/",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 8,
+        "name": "105 FM Ceara Mirim",
+        "desc": "Those who aren’t fond of online radio he or she should just tune in to 105 FM Ceara Mirim cause by tuning in to the radio and passing their time with the programs 105 FM Ceara Mirim presents you will surely come back again to enjoy the presentation of programs by 105 FM Ceara Mirim It’s a radio to pass some good time with good fellas.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2017/01/105-FM-Ceara-Mirim.jpg",
+        "stream": "http://stm21.dariocanuto.com.br:22772/;",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 9,
+        "name": "87 FM Pro Guaramirim",
+        "desc": "Just don’t like to get bored than wait no more just tune in to 87 FM Pro Guaramirim and get in touch with the types of programs combination that will mostly keep you connected and engaged with what the radio might be offering to you. It’s time to get entertained with 87 FM Pro Guaramirim and it’s cool variation of programs.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2017/01/87-FM-Pro-Guaramirim.jpg",
+        "stream": "http://servidor38.brlogic.com:8118/live",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 10,
+        "name": "89 FM Novosom",
+        "desc": "89 FM Novosom plays today’s biggest hits and at the same time the hit’s of yesterday’s. It’s a complete package for those listeners who has already got bored by searching a radio that plays today’s big hit tracks in music. Once you tune in to 89 FM Novosom you will just have the kind of chill you will remember for a very long time.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2016/12/89-FM-NovoSom.jpg",
+        "stream": "http://ice1.crossradio.com.br:8280/live.aac",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 11,
+        "name": "91 Rock",
+        "desc": "91 Rock live broadcasting from Curitiba, PR, Brazil. 91 Rock is a one of the most famous online radio station on Curitiba, PR, Brazil. 91 Rock broadcast Rock music.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2014/08/91-Rock.jpg",
+        "stream": "http://servidor40.brlogic.com:8044/live",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 12,
+        "name": "94 FM Bauru",
+        "desc": "By covering most of the genres an online radio that intends to entertain their listeners should cover and at the same time also broadcasting the biggest hits around the world 94 FM Bauru is becoming more and more popular among their listeners for their job and presentation of beautiful programs.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2016/12/94-FM-Bauru.jpg",
+        "stream": "http://stm19.srvstm.com:27470/stream",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 13,
+        "name": "96 FM Bauru",
+        "desc": "96 FM Bauru is a not for profit community online and fm raido station on Brazil. As 96 FM Bauru only youth online radio station. 96 FM Bauru provides a mix of music, entertainment, local journalistic content and information to enhance Hobart’s cultural landscape.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2014/07/96-FM-Bauru.jpg",
+        "stream": "http://ice1.crossradio.com.br:8422/live.aac",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 14,
+        "name": "98 FM Campina Grande",
+        "desc": "Just don’t like to get bored than wait no more just tune in to 98 FM Campina Grande and get in touch with the types of programs combination that will mostly keep you connected and engaged with what the radio might be offering to you. It’s time to get entertained with 98 FM Campina Grande and it’s cool variation of programs.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2016/12/98-FM-Campina-Grande.jpg",
+        "stream": "http://ice11.crossradio.com.br:8026/;",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 15,
+        "name": "99.9 Uniao FM",
+        "desc": "99.9 Uniao FM live broadcasting from Brazil. 99.9 Uniao FM is a one of the most famous online radio station on Brazil. 99.9 Uniao FM broadcast various kind of latest hip-hop, classic, dance, electronic etc. music .",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2015/04/99.9-Uniao-FM.jpg",
+        "stream": "http://stream.ouveai.com.br:8055/;",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 16,
+        "name": "99FM",
+        "desc": "99FM is a full-time online radio station very popular through Brazil. 99FM has been broadcasting on air and online from Belem, Brazil. Although this radio channel is licensed as a music station, much of its schedule consists of secular music programming.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2016/01/99FM.jpg",
+        "stream": "http://hts02.kshost.com.br:8862/live",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 17,
+        "name": "Aeon Classics",
+        "desc": "Radio Aeon Classics live broadcasting from Brazil . Radio Aeon Classics broadcast various kind of 80s, 70s, italo-pop, retro, classic, disco. Radio Aeon Classics streaming music and programs both in online. Radio Aeon Classics is 24 hour 7 day live Online radio.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2018/02/Aeon-Classics.jpg",
+        "stream": "http://stm50.srvstm.com:33718/;",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 18,
+        "name": "Agreste 4",
+        "desc": "If you don’t like some borng stuff a radio often presents one after one than Agreste 4 could be the fresh content based radio you might be searching for. Agreste 4 will entertain you in a very entertaining and engaging manner. You will find yourself to get attracted by the sheer level of engagement of the radio.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2017/12/Agreste-4.jpg",
+        "stream": "http://stm24.srvstm.com:26050/;?1514279468233",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 19,
+        "name": "Aguia Dourada FM",
+        "desc": "In accordance with their regular programs and special programs for those special moments, days and time by Aguia Dourada FM are really very entertaining and engaging. With Aguia Dourada FM it’s possible to explore more and more into the space of online radio and very engaging and intuitive musical programs based on the genres they are dedicate to.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2017/01/Aguia-Dourada-FM.jpg",
+        "stream": "http://ip.glayson.com.br:9972/;",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    },
+    {
+        "id": 20,
+        "name": "Alcantil FM 87.9",
+        "desc": "Alcantil FM 87.9 also plays good quality party music but here’s a difference between their this radio and the other one. Alcantil FM 87.9 plays various kinds of hottest songs specially from the 70’s and 80’s musical era. Be with Alcantil FM 87.9 and you will be able to enjoy the hottest songs of the decades in a very entertaining manner.",
+        "img": "http://www.liveonlineradio.net/wp-content/uploads/2017/01/Alcantil-FM-87.9.jpg",
+        "stream": "http://198.27.82.84:8071/stream",
+        "status": "paused",
+        "selected": false,
+        "isFavourite": false
+    }
+]
